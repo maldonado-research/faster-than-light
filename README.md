@@ -6,6 +6,8 @@ GitHub documentation edition: **2026-09-30** · research snapshot: **2026-09-08*
 First GitHub publication: **2026-10-01**  
 Dedicated repository publication: **2026-10-02 UTC (2026-10-01 Pacific)**
 
+[Readable FTL overview](https://maldonado-research.github.io/projects/faster-than-light/) · [Research directory](https://maldonado-research.github.io/)
+
 Could a hypothetical faster-than-light sector be subjected to clear mathematical and observational consistency checks? The Einstein Audit asks that question by examining causal loops, an assumed extra-radiation budget, and selected gravitational-wave consistency measures.
 
 **This research does not demonstrate faster-than-light travel or communication. No completed strict real-data FTL constraint, physical discovery, or external peer review is documented in the available sources.**

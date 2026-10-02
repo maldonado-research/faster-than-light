@@ -1,5 +1,9 @@
 # Publication and correction history
 
+## 2026-10-02 UTC — public navigation
+
+Added README links to the readable FTL overview and the author's research directory. This navigation update preserves the September 8 research snapshot, September 30 documentation edition, publication dates, archival identifiers, and citation metadata.
+
 ## 2026-10-01 Pacific (2026-10-02 UTC) — preferred-time scalar exercise
 
 Introduced a separately assumed fixed-background free scalar action, with registered energy, dispersion, finite-propagation, boosted-slicing and moving-laboratory checks. Recorded pre-run finite-difference and post-run control-coverage/sign amendments, evaluated healthy/pathological controls, and passed a separate 9,206 exact-rational internal audit. Derived conditional parallel/transverse timing differences and showed the original loop-severity diagnostic vanishes under this changed preferred-time rule.
