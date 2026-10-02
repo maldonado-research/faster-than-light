@@ -1,0 +1,190 @@
+{
+  "scope": "Targeted audit of three established primary sources; not exhaustive and not a current-discovery literature search",
+  "prepared_utc": "2026-10-02T06:29:46.500202+00:00",
+  "evidence_status": "conditional free-PDE mathematics and internal source comparison; no observed FTL channel or external peer review",
+  "citations": [
+    {
+      "authors": [
+        "Stefano Liberati",
+        "Sebastiano Sonego",
+        "Matt Visser"
+      ],
+      "title": "Faster-than-c signals, special relativity, and causality",
+      "arxiv": "gr-qc/0107091v2",
+      "version_date": "2002-02-14",
+      "doi_listed_by_arxiv": "10.1006/aphy.2002.6233",
+      "consulted_sections": [
+        "3.1",
+        "3.2.2",
+        "3.2.3",
+        "3.2.4"
+      ],
+      "supports": [
+        "Preferred-time operational restriction",
+        "Global temporal function/stable causality",
+        "Canonical negative-mass-squared fields do not widen the front cone"
+      ],
+      "does_not_supply": [
+        "Proof of current toy action physical viability",
+        "General chronology protection theorem",
+        "Observed controllable superluminal signaling"
+      ]
+    },
+    {
+      "authors": [
+        "Jean-Philippe Bruneton"
+      ],
+      "title": "On causality and superluminal behavior in classical field theories. Applications to k-essence theories and MOND-like theories of gravity",
+      "arxiv": "gr-qc/0607055v2",
+      "version_date": "2006-10-02",
+      "doi_listed_by_arxiv": "10.1103/PhysRevD.75.085013",
+      "versions_observed_in_live_abstract": [
+        "v1",
+        "v2"
+      ],
+      "consulted_sections": [
+        "II.1",
+        "II.2",
+        "II.3",
+        "II.4",
+        "II.7",
+        "III.1",
+        "III.2",
+        "III.3",
+        "III.4",
+        "V"
+      ],
+      "supports": [
+        "All interacting causal cones/common initial surfaces must be considered",
+        "Inadmissible Minkowski-spacelike but effective-timelike Cauchy slices",
+        "Hyperbolicity, energy sign and global properties are distinct",
+        "Soft-photon EFT phase velocity does not settle ultraviolet front"
+      ],
+      "scope_caution": "II.7 explicitly sets aside fixed non-Lorentz-invariant kinetic Lagrangians; it does not derive or validate the proposed action"
+    },
+    {
+      "authors": [
+        "Eugeny Babichev",
+        "Viatcheslav Mukhanov",
+        "Alexander Vikman"
+      ],
+      "title": "k-Essence, superluminal propagation, causality and emergent geometry",
+      "arxiv": "0708.0561v1",
+      "version_date": "2007-08-03",
+      "doi_listed_by_arxiv": "10.1088/1126-6708/2008/02/101",
+      "versions_observed_in_live_abstract": [
+        "v1"
+      ],
+      "consulted_sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "Appendix A",
+        "Appendix E"
+      ],
+      "equations_relevant": [
+        "16-19",
+        "23-27",
+        "28-31",
+        "33-40",
+        "44"
+      ],
+      "supports": [
+        "Massless externally forced homogeneous faster-cone perturbation PDE comparison",
+        "Ordinary boosted slices cease effective-spacelike at speed c^2/c_s",
+        "Preferred-retarded Green function must be transformed rather than replaced by a boosted-retarded prescription",
+        "Restricted initial configurations for fast observers",
+        "Finite smooth clumps in regular trivial Lorentz-invariant vacuum have ordinary luminal leading boundary under source assumptions"
+      ],
+      "scope_cautions": [
+        "Full paper treats Lorentz-invariant k-essence actions and backgrounds, not this explicitly fixed global preferred action",
+        "Chronology-protection completion is invoked as a conjecture",
+        "Section 7 finite-clump conclusion cannot be transplanted unchanged to a globally imposed faster-cone operator"
+      ]
+    }
+  ],
+  "retrievals": [
+    {
+      "url": "https://arxiv.org/abs/gr-qc/0607055",
+      "retrieved_utc": "2026-10-02T06:22:41.348527+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/gr-qc/0607055",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 45776,
+      "sha256": "5fc1a1e1511111665fb66dd79f26757867d9e1d3e4866e802e00dc111e4c3cae"
+    },
+    {
+      "url": "https://arxiv.org/abs/0708.0561",
+      "retrieved_utc": "2026-10-02T06:22:41.349679+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/0708.0561",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41626,
+      "sha256": "341b0507ad0387dd575deade809a4d6567f871aefe802146c96b8aafe68be617"
+    },
+    {
+      "url": "https://arxiv.org/abs/gr-qc/0107091v2",
+      "retrieved_utc": "2026-10-02T06:22:41.350612+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/gr-qc/0107091v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 43328,
+      "sha256": "abb6cc97a2bd9d077b7fc8d947f658566f685b95ae2064ed7b147d817815b92b"
+    },
+    {
+      "url": "https://arxiv.org/abs/gr-qc/0607055v2",
+      "retrieved_utc": "2026-10-02T06:22:56.226308+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/gr-qc/0607055v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 45788,
+      "sha256": "35760b4763e063ef8f0349bb9eeb97fa1b851f80b097f39421f1ceb822f1fd29"
+    },
+    {
+      "url": "https://arxiv.org/html/gr-qc/0607055v2",
+      "retrieved_utc": "2026-10-02T06:22:56.227757+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/gr-qc/0607055v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 275583,
+      "sha256": "36ce6c945fb7090e42dd35410cfaecc8db1167fa8f896b429271c1e147d3abcf"
+    },
+    {
+      "url": "https://arxiv.org/abs/0708.0561v1",
+      "retrieved_utc": "2026-10-02T06:22:56.228609+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/0708.0561v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41638,
+      "sha256": "ce36f21dad712151b23d15f40fe09cff123b32e50bbf056726945a0f2743e3c9"
+    },
+    {
+      "url": "https://arxiv.org/html/0708.0561v1",
+      "retrieved_utc": "2026-10-02T06:22:56.229520+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/0708.0561v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 671072,
+      "sha256": "d018c488fd1c5da533b84db9f28d70c8867e088137ef4512b3ade9dde2a1c2de"
+    },
+    {
+      "url": "https://arxiv.org/html/gr-qc/0107091v2",
+      "retrieved_utc": "2026-10-02T06:22:56.507196+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/gr-qc/0107091v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 327807,
+      "sha256": "48e9a712af43bae03fdfc28d45c7a94e56796d07cd0aedd20af4c96f7cc0822c"
+    }
+  ],
+  "article_redistribution": "Metadata and original summaries only; cache directory and extracted article text must be excluded from all public artifacts",
+  "doi_verification": "DOI identifiers read from live arXiv metadata; DOI destination pages were not separately verified",
+  "omitted_optional_source": {
+    "arxiv": "gr-qc/0007031",
+    "reason": "Dynamical aether/gravity extension was outside the present fixed-background free-PDE scope; not consulted"
+  }
+}

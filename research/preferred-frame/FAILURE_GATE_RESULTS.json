@@ -1,0 +1,52 @@
+{
+  "run_utc": "2026-10-02T06:45:39.001297+00:00",
+  "candidate_sha256": "d0beb4388dd776e1d011a889b1ef20e1bc472e6a8490adca5faf750dff77163b",
+  "script_sha256": "db30f7848de5129aa885ace83c44fba4b65622526547167e3b6c9b28ab93654b",
+  "method": "In-memory substitutions only; tracked source remains unchanged",
+  "baseline_passed": true,
+  "registered_result_hash_matches": true,
+  "candidate_unchanged_during_run": true,
+  "defects": [
+    {
+      "defect": "Erase negative dispersion values; healthy frequencies unchanged",
+      "rejected": true,
+      "failure_count": 1,
+      "failure_examples": [
+        "Pathological negative controls were accepted"
+      ]
+    },
+    {
+      "defect": "Erase negative Hamiltonian density; healthy energies unchanged",
+      "rejected": true,
+      "failure_count": 1,
+      "failure_examples": [
+        "Pathological negative controls were accepted"
+      ]
+    },
+    {
+      "defect": "Erase negative boosted time coefficient",
+      "rejected": true,
+      "failure_count": 10,
+      "failure_examples": [
+        "Exact boosted principal matrix",
+        "Exact boosted principal matrix",
+        "Exact boosted principal matrix",
+        "Exact boosted principal matrix",
+        "Exact boosted principal matrix"
+      ]
+    },
+    {
+      "defect": "Rescale mode frequency by 1+1e-8",
+      "rejected": true,
+      "failure_count": 3612,
+      "failure_examples": [
+        "Positive-mode dispersion/velocity case 0",
+        "Boosted on-shell mode 0",
+        "Positive-mode dispersion/velocity case 1",
+        "Positive-mode dispersion/velocity case 2",
+        "Boosted on-shell mode 2"
+      ]
+    }
+  ],
+  "passed": true
+}

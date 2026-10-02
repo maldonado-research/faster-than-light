@@ -1,5 +1,11 @@
 # Publication and correction history
 
+## 2026-10-01 Pacific (2026-10-02 UTC) — preferred-time scalar exercise
+
+Introduced a separately assumed fixed-background free scalar action, with registered energy, dispersion, finite-propagation, boosted-slicing and moving-laboratory checks. Recorded pre-run finite-difference and post-run control-coverage/sign amendments, evaluated healthy/pathological controls, and passed a separate 9,206 exact-rational internal audit. Derived conditional parallel/transverse timing differences and showed the original loop-severity diagnostic vanishes under this changed preferred-time rule.
+
+Compared three exact-version established primary sources through live retrieval. The complete-PDE front is distinguished from an unknown effective-theory ultraviolet front, positive preferred charges from signed non-Cauchy flux, and classical free stability from missing physical/interacting completion. These are conditional methods results, with no novelty, realized FTL channel, external peer review, observation, archival DOI or citation-release change.
+
 ## 2026-10-01 Pacific (2026-10-02 UTC) — unequal-speed continuation
 
 Extended the proper-delay antitelephone calculation to unequal outbound and return speeds. Added a disclosed registration and amendment, exact direction-swap counterexample, standard-library reproduction, generated results and separate internal audit. A light-speed leg removes the loop region in this model; a finite delay alone leaves it for sufficiently large observer boost. Recorded conditional massive-observer motion costs and the preferred-time rule that would forbid the loop's backward-time return leg.
