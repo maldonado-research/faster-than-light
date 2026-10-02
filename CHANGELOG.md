@@ -1,5 +1,11 @@
 # Publication and correction history
 
+## 2026-10-01 Pacific (2026-10-02 UTC) — unequal-speed continuation
+
+Extended the proper-delay antitelephone calculation to unequal outbound and return speeds. Added a disclosed registration and amendment, exact direction-swap counterexample, standard-library reproduction, generated results and separate internal audit. A light-speed leg removes the loop region in this model; a finite delay alone leaves it for sufficiently large observer boost. Recorded conditional massive-observer motion costs and the preferred-time rule that would forbid the loop's backward-time return leg.
+
+Verified the exact-version primary source by Liberati, Sonego and Visser (arXiv:gr-qc/0107091v2, sections 3.1 and 3.2.2) through live abstract/HTML retrieval. This is conditional kinematics and a targeted established-literature connection, not new physical propagation, exhaustive literature coverage, novelty, peer review or an empirical release. No archival DOI or citation-release metadata changed.
+
 ## 2026-10-01 Pacific (2026-10-02 UTC) — subsequent methods work
 
 Added a finite proper reply-delay sensitivity derivation, standard-library reproduction script, disclosed registration and internal mathematical audit. The delayed model has a different severity ceiling; this is conditional kinematics, not a physical signaling result or novelty claim.

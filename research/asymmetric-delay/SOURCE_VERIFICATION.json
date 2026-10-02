@@ -1,0 +1,37 @@
+{
+  "scope": "targeted established primary source, not a complete literature survey",
+  "citation": {
+    "authors": [
+      "Stefano Liberati",
+      "Sebastiano Sonego",
+      "Matt Visser"
+    ],
+    "title": "Faster-than-c signals, special relativity, and causality",
+    "arxiv": "gr-qc/0107091v2",
+    "version_date": "2002-02-14",
+    "doi": "10.1006/aphy.2002.6233",
+    "sections": [
+      "3.1",
+      "3.2.2"
+    ]
+  },
+  "retrievals": [
+    {
+      "url": "https://arxiv.org/abs/gr-qc/0107091v2",
+      "final_url": "https://arxiv.org/abs/gr-qc/0107091v2",
+      "status": 200,
+      "retrieved_utc": "2026-10-02T05:52:53.240812+00:00",
+      "bytes": 43328,
+      "sha256": "abb6cc97a2bd9d077b7fc8d947f658566f685b95ae2064ed7b147d817815b92b"
+    },
+    {
+      "url": "https://arxiv.org/html/gr-qc/0107091v2",
+      "final_url": "https://arxiv.org/html/gr-qc/0107091v2",
+      "status": 200,
+      "retrieved_utc": "2026-10-02T05:52:53.701394+00:00",
+      "bytes": 327807,
+      "sha256": "48e9a712af43bae03fdfc28d45c7a94e56796d07cd0aedd20af4c96f7cc0822c"
+    }
+  ],
+  "redistribution": "metadata only; article contents not included"
+}
