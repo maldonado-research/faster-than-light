@@ -1,0 +1,168 @@
+{
+  "run_utc": "2026-10-02T05:08:13.496485+00:00",
+  "python": "3.12.14",
+  "script_sha256": "e6407d76a857498f03e369df8aeda8aaacf392a064a2f9adea27a0c11cafeb86",
+  "claim_status": "conditional mathematical sensitivity; no observations or physical FTL claim",
+  "inputs": "deterministic generated parameters; fixed uniform-beta population and fixed tau/T",
+  "passed": true,
+  "failures": [],
+  "checks": {
+    "floating_event_cases": 5000,
+    "max_event_relative_error": 2.5974730502463195e-14,
+    "exact_event_cases": 72,
+    "decimal_threshold_cases": 30,
+    "threshold_side_cases": 60,
+    "max_threshold_residual": "1E-69",
+    "ceiling_resolutions": [
+      4096,
+      8192
+    ],
+    "max_ceiling_resolution_change": 7.216449660063514e-15
+  },
+  "uniform_ceiling": [
+    {
+      "delay_tau_over_T": 0.0,
+      "J_infinity_uniform_beta": 0.2000000000000001,
+      "delay2_times_J": 0.0
+    },
+    {
+      "delay_tau_over_T": 0.1,
+      "J_infinity_uniform_beta": 0.1657512664984818,
+      "delay2_times_J": 0.0016575126649848182
+    },
+    {
+      "delay_tau_over_T": 0.5,
+      "J_infinity_uniform_beta": 0.08638937819435238,
+      "delay2_times_J": 0.021597344548588096
+    },
+    {
+      "delay_tau_over_T": 1.0,
+      "J_infinity_uniform_beta": 0.044529385232734996,
+      "delay2_times_J": 0.044529385232734996
+    },
+    {
+      "delay_tau_over_T": 2.0,
+      "J_infinity_uniform_beta": 0.01665543789505636,
+      "delay2_times_J": 0.06662175158022544
+    },
+    {
+      "delay_tau_over_T": 10.0,
+      "J_infinity_uniform_beta": 0.0008243090122491472,
+      "delay2_times_J": 0.08243090122491471
+    },
+    {
+      "delay_tau_over_T": 100.0,
+      "J_infinity_uniform_beta": 8.33241681172792e-06,
+      "delay2_times_J": 0.0833241681172792
+    },
+    {
+      "delay_tau_over_T": 1000.0,
+      "J_infinity_uniform_beta": 8.333324166681176e-08,
+      "delay2_times_J": 0.08333324166681176
+    }
+  ],
+  "finite_W_uniform_severity": [
+    {
+      "delay_tau_over_T": 0.0,
+      "W": [
+        1.1,
+        2,
+        10,
+        100,
+        1000000.0
+      ],
+      "J": [
+        0.0014398256041284257,
+        0.05077313518948204,
+        0.16647827811655844,
+        0.1966630269213144,
+        0.19999966666662863
+      ]
+    },
+    {
+      "delay_tau_over_T": 0.1,
+      "W": [
+        1.1,
+        2,
+        10,
+        100,
+        1000000.0
+      ],
+      "J": [
+        0.0012235968256471702,
+        0.042220263685148834,
+        0.13745448508565475,
+        0.16290493071787138,
+        0.16575098181576067
+      ]
+    },
+    {
+      "delay_tau_over_T": 0.5,
+      "W": [
+        1.1,
+        2,
+        10,
+        100,
+        1000000.0
+      ],
+      "J": [
+        0.0006722983140385741,
+        0.021944583354549435,
+        0.07094574607686802,
+        0.08480619761579965,
+        0.08638921949062117
+      ]
+    },
+    {
+      "delay_tau_over_T": 1.0,
+      "W": [
+        1.1,
+        2,
+        10,
+        100,
+        1000000.0
+      ],
+      "J": [
+        0.00035631214985777106,
+        0.011246622024436922,
+        0.03635075222331568,
+        0.04368272572093553,
+        0.04452930026108939
+      ]
+    },
+    {
+      "delay_tau_over_T": 2.0,
+      "W": [
+        1.1,
+        2,
+        10,
+        100,
+        1000000.0
+      ],
+      "J": [
+        0.000135915068119946,
+        0.004182531829034907,
+        0.0135337824494392,
+        0.016330001502631173,
+        0.016655405206270315
+      ]
+    },
+    {
+      "delay_tau_over_T": 10.0,
+      "W": [
+        1.1,
+        2,
+        10,
+        100,
+        1000000.0
+      ],
+      "J": [
+        6.808028117376748e-06,
+        0.00020612791932780668,
+        0.0006678021575774611,
+        0.0008079209464326773,
+        0.000824307365256486
+      ]
+    }
+  ]
+}

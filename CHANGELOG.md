@@ -1,5 +1,11 @@
 # Publication and correction history
 
+## 2026-10-01 Pacific (2026-10-02 UTC) — subsequent methods work
+
+Added a finite proper reply-delay sensitivity derivation, standard-library reproduction script, disclosed registration and internal mathematical audit. The delayed model has a different severity ceiling; this is conditional kinematics, not a physical signaling result or novelty claim.
+
+Verified the live published FTL Zenodo concept family: four versions, latest v1.2.1. Recovered public v6.0/v6.1 kits with checksum checks and executed the documented synthetic smoke path with current outputs inspected. These checks do not validate missing v6.3 assets or unlock observational claims. No Zenodo version, DOI or citation release metadata was changed. The September 8 snapshot and earlier editorial history remain intact.
+
 ## 2026-10-02 UTC (2026-10-01 Pacific) — dedicated repository publication
 
 Published the dedicated `maldonado-research/faster-than-light` repository from the already published October 1 documentation. Root links and citation URL now point to the dedicated FTL repository. Added cloud-research instructions in AGENTS.md and retained the existing author licensing terms. This is a repository organization change, not a new scientific or executable release.
