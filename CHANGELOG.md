@@ -1,5 +1,23 @@
 # Publication and correction history
 
+## 2026-10-01 Pacific (2026-10-02 UTC) — preferred-time scalar exercise
+
+Introduced a separately assumed fixed-background free scalar action, with registered energy, dispersion, finite-propagation, boosted-slicing and moving-laboratory checks. Recorded pre-run finite-difference and post-run control-coverage/sign amendments, evaluated healthy/pathological controls, and passed a separate 9,206 exact-rational internal audit. Derived conditional parallel/transverse timing differences and showed the original loop-severity diagnostic vanishes under this changed preferred-time rule.
+
+Compared three exact-version established primary sources through live retrieval. The complete-PDE front is distinguished from an unknown effective-theory ultraviolet front, positive preferred charges from signed non-Cauchy flux, and classical free stability from missing physical/interacting completion. These are conditional methods results, with no novelty, realized FTL channel, external peer review, observation, archival DOI or citation-release change.
+
+## 2026-10-01 Pacific (2026-10-02 UTC) — unequal-speed continuation
+
+Extended the proper-delay antitelephone calculation to unequal outbound and return speeds. Added a disclosed registration and amendment, exact direction-swap counterexample, standard-library reproduction, generated results and separate internal audit. A light-speed leg removes the loop region in this model; a finite delay alone leaves it for sufficiently large observer boost. Recorded conditional massive-observer motion costs and the preferred-time rule that would forbid the loop's backward-time return leg.
+
+Verified the exact-version primary source by Liberati, Sonego and Visser (arXiv:gr-qc/0107091v2, sections 3.1 and 3.2.2) through live abstract/HTML retrieval. This is conditional kinematics and a targeted established-literature connection, not new physical propagation, exhaustive literature coverage, novelty, peer review or an empirical release. No archival DOI or citation-release metadata changed.
+
+## 2026-10-01 Pacific (2026-10-02 UTC) — subsequent methods work
+
+Added a finite proper reply-delay sensitivity derivation, standard-library reproduction script, disclosed registration and internal mathematical audit. The delayed model has a different severity ceiling; this is conditional kinematics, not a physical signaling result or novelty claim.
+
+Verified the live published FTL Zenodo concept family: four versions, latest v1.2.1. Recovered public v6.0/v6.1 kits with checksum checks and executed the documented synthetic smoke path with current outputs inspected. These checks do not validate missing v6.3 assets or unlock observational claims. No Zenodo version, DOI or citation release metadata was changed. The September 8 snapshot and earlier editorial history remain intact.
+
 ## 2026-10-02 UTC (2026-10-01 Pacific) — dedicated repository publication
 
 Published the dedicated `maldonado-research/faster-than-light` repository from the already published October 1 documentation. Root links and citation URL now point to the dedicated FTL repository. Added cloud-research instructions in AGENTS.md and retained the existing author licensing terms. This is a repository organization change, not a new scientific or executable release.

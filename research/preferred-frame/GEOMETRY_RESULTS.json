@@ -1,0 +1,24 @@
+{
+  "run_utc": "2026-10-02T06:45:38.777134+00:00",
+  "candidate_source_sha256": "d0beb4388dd776e1d011a889b1ef20e1bc472e6a8490adca5faf750dff77163b",
+  "candidate_unchanged_during_run": true,
+  "check_script_sha256": "1952eff554a56c2cbeba4fa44387cebe334fb318d88ba3864361cf3fc446d7e1",
+  "status": "Independent conditional synthetic geometry and exact tensor-transform checks; no physical observation",
+  "passed": true,
+  "failures": [],
+  "counts": {
+    "preferred_relays": 2400,
+    "distinct_emitter_rule_events": 2400,
+    "arbitrary_angle_labs": 1600,
+    "registered_parallel_transverse_labs_including_luminal": 25,
+    "exact_tensor_transforms": 21
+  },
+  "residuals": {
+    "max_preferred_relay_relative": 2.8564942780424777e-14,
+    "min_preferred_arrival_ratio": 1.0014574540720615,
+    "max_emitter_rule_scaled": 4.4550283212327185e-14,
+    "max_lab_relative": 8.385870676935954e-15,
+    "max_ray_support_equation_scaled": 5.973284313421014e-16
+  },
+  "computed_transverse_discriminant_over4": "-80/7"
+}

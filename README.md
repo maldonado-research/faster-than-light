@@ -93,3 +93,14 @@ The repository's existing [licensing policy](LICENSE) applies to author-owned do
 Select `maldonado-research/faster-than-light` when creating a cloud environment. This repository currently contains Markdown research documentation and citation metadata; reading and editing it require no package installation, service, or secret. See [AGENTS.md](AGENTS.md) for the research workflow and evidence boundaries.
 
 Start with the research account, evidence register, and sources register before proposing mathematical or computational changes. The available record does not include the private v6.3 kit or its data. Add reproducible code and an explicit environment specification only when actual executable assets are supplied or developed.
+
+## Subsequent methods work
+
+The September 8 research snapshot and September 30 documentation edition remain preserved. Later work is recorded separately:
+
+- [Finite proper reply delay](docs/FINITE_RESPONSE_DELAY.md): an explicit sensitivity extension of the immediate-reply antitelephone calculation, with standard-library reproduction code and an internal mathematical audit. It changes the population severity ceiling under its stated delay assumptions; it does not establish physically achievable FTL signaling.
+- [Unequal outbound and return speeds](docs/ASYMMETRIC_SIGNAL_SPEEDS.md): derives the delayed two-speed threshold, light-speed boundaries, direction-dependent outcomes and conditional observer-motion costs, with a targeted primary-source comparison to preferred-time causality restrictions.
+- [Preferred-frame scalar exercise](docs/PREFERRED_FRAME_SCALAR.md): specifies a separate illustrative free action, checks energy and stability, distinguishes fronts and boosted initial surfaces, and derives conditional laboratory timing signatures. The action has no supplied physical production/detection or interacting completion.
+- [Live Zenodo verification](docs/LIVE_ARCHIVE_VERIFICATION_20261001.md): confirms v1.2.1 as the latest observed record in the published FTL concept family and records checksum-verified public kit recovery and a synthetic software smoke run.
+
+These additions are methods work, not a strict real-data A2 release or new empirical claim. The original edition's statement that no research script was run concerns that edition; subsequent executable checks are documented in the linked notes.

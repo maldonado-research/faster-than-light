@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "run_utc": "2026-10-02T06:46:24.154982+00:00",
+  "evidence_tier": "internal independent exact-rational synthetic checks",
+  "action_assumptions": {
+    "background": "Minkowski eta=(-,+,+,+), fixed constant unit timelike u",
+    "preferred_equation": "phi_tt-a^2 Laplacian(phi)+m^2 phi=J",
+    "a": ">1",
+    "m_squared": ">=0",
+    "c": 1,
+    "boundary": "free field or retarded source; decay/finite energy for charges",
+    "physical_couplings": "unspecified; no empirical FTL claim"
+  },
+  "seed": 2026100104,
+  "python": "3.12.14",
+  "script_sha256": "dd6869d710016c11a1c1a2532414571cd313c4c5f2d6b420809410d35df55a00",
+  "counts": {
+    "lorentz_identity": 400,
+    "boost_principal_determinant": 400,
+    "cauchy_sign": 400,
+    "characteristic_boundary": 400,
+    "principal_symbol_invariance": 400,
+    "preferred_positive_mass_square": 400,
+    "boosted_positive_mode_frequency": 400,
+    "minkowski_timelike_on_shell": 400,
+    "boosted_on_shell_equation": 400,
+    "boosted_symplectic_flux_identity": 400,
+    "on_shell_discriminant_square": 400,
+    "translation_charge_square_completion": 400,
+    "translation_charge_nonnegative": 400,
+    "finite_propagation_flux_bound": 400,
+    "round_trip_ray_intersections": 400,
+    "round_trip_preferred_future": 400,
+    "one_way_lab_formula": 400,
+    "round_trip_lab_formula": 400,
+    "round_trip_lab_future": 400,
+    "transverse_direct_intersection": 400,
+    "transverse_proper_round_trip": 400,
+    "orientation_ratio": 400,
+    "orientation_sign": 400,
+    "noncauchy_transverse_illposedness": 1,
+    "negative_coefficient_positive_mode_counterexample": 1,
+    "positive_frequency_negative_noncauchy_flux": 1,
+    "folded_spatial_spectrum_roots": 1,
+    "negative_one_way_positive_round_trip": 1,
+    "massive_superluminal_group_example": 1
+  },
+  "total_checks": 9206,
+  "failures": [],
+  "exact_noncauchy_example": {
+    "a": "2",
+    "v": "4/5",
+    "gamma": "5/3",
+    "A": "-13/3",
+    "B": "20/3",
+    "C": "-28/3",
+    "transverse_discriminant": "-52/3",
+    "arbitrary_transverse_omega_prime_squared": "-12/13",
+    "preferred_positive_mode": {
+      "omega": "2",
+      "kx": "1"
+    },
+    "boosted_same_mode": {
+      "omega_prime": "2",
+      "kx_prime": "-1"
+    },
+    "two_positive_roots_at_kx_prime_minus_one": [
+      "14/13",
+      "2"
+    ],
+    "one_way_t_prime": "-1/2",
+    "return_delta_t_prime": "13/14",
+    "round_trip_emitter_proper_time": "3/7"
+  },
+  "limitations": [
+    "No observational inputs, production mechanism, detector model, or interacting completion.",
+    "Finite retarded support and no-loop statement additionally have analytic proofs in AUDIT.md.",
+    "Coordinate covariance transforms u; a fixed-u state is not invariant under boosts.",
+    "Checks are internal assistance, not external peer review or physical replication."
+  ]
+}

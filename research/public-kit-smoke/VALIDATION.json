@@ -1,0 +1,270 @@
+{
+  "validated_utc": "2026-10-02T05:10:36.222386+00:00",
+  "scope": "Fresh local synthetic run only; no archival output used",
+  "index_path": "FTL_A2_V6_PROTOCOL_RUN_INDEX.json",
+  "run_start_utc": "2026-10-02T05:05:59.759795+00:00",
+  "run_index_mtime_utc": "2026-10-02T05:06:15.001071+00:00",
+  "checks": {
+    "index_synthetic_only": true,
+    "exact_three_named_configurations": true,
+    "current_run_october_2": true
+  },
+  "runs": [
+    {
+      "name": "primary_sigmoid_within",
+      "started_utc": "2026-10-02T05:06:01.980006+00:00",
+      "completed_utc": "2026-10-02T05:06:06.268558+00:00",
+      "exit_code": 0,
+      "provider_status": "PROVIDER_RETURN_PASS_2D",
+      "final_status": "CROSSFIT_PRIMARY_REPORT_COMPLETE_STABLE_5PCT",
+      "crossfit_status": "CROSSFIT_STABLE_5PCT",
+      "r_draw_rows": 150,
+      "pci_bootstrap_rows": 12,
+      "invalid_draws": 0,
+      "invalid_mass": 0.0,
+      "threshold_tax_total_referee": 1.0173159385997248,
+      "threshold_tax_percent": 1.73159385997248,
+      "max_r_arithmetic_absolute_error": 1.1102230246251565e-16,
+      "max_phase_mass_absolute_error": 0.0,
+      "max_recomputed_phase_absolute_error": 0,
+      "max_threshold_quantile_absolute_error": 0,
+      "checks": {
+        "primary_sigmoid_within:fresh_run_timestamps": true,
+        "primary_sigmoid_within:generated_files_fresh": true,
+        "primary_sigmoid_within:report_is_current_output": true,
+        "primary_sigmoid_within:child_exit_zero": true,
+        "primary_sigmoid_within:nested_logs_exit_zero": true,
+        "primary_sigmoid_within:provider_pass_2d": true,
+        "primary_sigmoid_within:complete_report": true,
+        "primary_sigmoid_within:stable_5percent": true,
+        "primary_sigmoid_within:synthetic_settings": true,
+        "primary_sigmoid_within:150_r_draws": true,
+        "primary_sigmoid_within:12_pci_draws": true,
+        "primary_sigmoid_within:finite_r_posterior_fields": true,
+        "primary_sigmoid_within:finite_pci_bootstrap_fields": true,
+        "primary_sigmoid_within:finite_threshold_fields": true,
+        "primary_sigmoid_within:finite_phase_fields": true,
+        "primary_sigmoid_within:r_and_sqrt_arithmetic_consistent": true,
+        "primary_sigmoid_within:pci_probabilities_bounded": true,
+        "primary_sigmoid_within:reported_invalid_mass_matches": true,
+        "primary_sigmoid_within:16_phase_rows_and_mass_sums": true,
+        "primary_sigmoid_within:phase_probabilities_bounded": true,
+        "primary_sigmoid_within:phase_classifications_match_generated_draws": true,
+        "primary_sigmoid_within:threshold_quantiles_match_draws": true,
+        "primary_sigmoid_within:no_failed_provider_checks": true
+      },
+      "artifacts": [
+        {
+          "path": "primary_sigmoid_within/FTL_A2_CROSSFIT_PRIMARY_E2E_REPORT_v5_9.json",
+          "sha256": "60982e5e52bbbf822faba8af8ee092c76858a39811ce3154e20bb089e8bc5b76",
+          "mtime_utc": "2026-10-02T05:06:06.269084+00:00"
+        },
+        {
+          "path": "primary_sigmoid_within/03_crossfit_pci_referee/crossfit_pci_report_v5_8.json",
+          "sha256": "a0f7edde65596fa8b04764d8cc4bd3e8792b2770ab1745afd5e90828b7627398",
+          "mtime_utc": "2026-10-02T05:06:05.333816+00:00"
+        },
+        {
+          "path": "primary_sigmoid_within/crossfit_primary_observational_draws_v5_9.csv",
+          "sha256": "bc4bb054f5b59d6d15c2c1c30fb9f8e6c35ee93f77917a77073ff7e891a3291f",
+          "mtime_utc": "2026-10-02T05:06:05.942837+00:00"
+        },
+        {
+          "path": "primary_sigmoid_within/03_crossfit_pci_referee/crossfit_pci_draws_v5_8.csv",
+          "sha256": "5482e21d80a7c9d318142c4bc73093f5b809591fcf7152e74c937ee8b8599ea5",
+          "mtime_utc": "2026-10-02T05:06:05.329948+00:00"
+        },
+        {
+          "path": "primary_sigmoid_within/crossfit_primary_phase_probs_v5_9.csv",
+          "sha256": "351d276dba6d3c2323401b6afbb89c4b10079f7268af3088935b3397a3b43cd9",
+          "mtime_utc": "2026-10-02T05:06:06.268530+00:00"
+        },
+        {
+          "path": "primary_sigmoid_within/crossfit_primary_sr_thresholds_v5_9.csv",
+          "sha256": "53d9a7d0e567d6cb8f232957533402ceb1a470de3b3f3cc04a5d3326ca2df911",
+          "mtime_utc": "2026-10-02T05:06:06.266346+00:00"
+        }
+      ]
+    },
+    {
+      "name": "sensitivity_isotonic_within",
+      "started_utc": "2026-10-02T05:06:07.161583+00:00",
+      "completed_utc": "2026-10-02T05:06:10.471011+00:00",
+      "exit_code": 0,
+      "provider_status": "PROVIDER_RETURN_PASS_2D",
+      "final_status": "CROSSFIT_PRIMARY_REPORT_COMPLETE_STABLE_5PCT",
+      "crossfit_status": "CROSSFIT_STABLE_5PCT",
+      "r_draw_rows": 150,
+      "pci_bootstrap_rows": 12,
+      "invalid_draws": 0,
+      "invalid_mass": 0.0,
+      "threshold_tax_total_referee": 1.0306003317832628,
+      "threshold_tax_percent": 3.0600331783262824,
+      "max_r_arithmetic_absolute_error": 1.1102230246251565e-16,
+      "max_phase_mass_absolute_error": 0.0,
+      "max_recomputed_phase_absolute_error": 0,
+      "max_threshold_quantile_absolute_error": 0,
+      "checks": {
+        "sensitivity_isotonic_within:fresh_run_timestamps": true,
+        "sensitivity_isotonic_within:generated_files_fresh": true,
+        "sensitivity_isotonic_within:report_is_current_output": true,
+        "sensitivity_isotonic_within:child_exit_zero": true,
+        "sensitivity_isotonic_within:nested_logs_exit_zero": true,
+        "sensitivity_isotonic_within:provider_pass_2d": true,
+        "sensitivity_isotonic_within:complete_report": true,
+        "sensitivity_isotonic_within:stable_5percent": true,
+        "sensitivity_isotonic_within:synthetic_settings": true,
+        "sensitivity_isotonic_within:150_r_draws": true,
+        "sensitivity_isotonic_within:12_pci_draws": true,
+        "sensitivity_isotonic_within:finite_r_posterior_fields": true,
+        "sensitivity_isotonic_within:finite_pci_bootstrap_fields": true,
+        "sensitivity_isotonic_within:finite_threshold_fields": true,
+        "sensitivity_isotonic_within:finite_phase_fields": true,
+        "sensitivity_isotonic_within:r_and_sqrt_arithmetic_consistent": true,
+        "sensitivity_isotonic_within:pci_probabilities_bounded": true,
+        "sensitivity_isotonic_within:reported_invalid_mass_matches": true,
+        "sensitivity_isotonic_within:16_phase_rows_and_mass_sums": true,
+        "sensitivity_isotonic_within:phase_probabilities_bounded": true,
+        "sensitivity_isotonic_within:phase_classifications_match_generated_draws": true,
+        "sensitivity_isotonic_within:threshold_quantiles_match_draws": true,
+        "sensitivity_isotonic_within:no_failed_provider_checks": true
+      },
+      "artifacts": [
+        {
+          "path": "sensitivity_isotonic_within/FTL_A2_CROSSFIT_PRIMARY_E2E_REPORT_v5_9.json",
+          "sha256": "962e5970fdcd687d36d48cc9934ababddd216d4170d23e00f8b88b2258ac634c",
+          "mtime_utc": "2026-10-02T05:06:10.471488+00:00"
+        },
+        {
+          "path": "sensitivity_isotonic_within/03_crossfit_pci_referee/crossfit_pci_report_v5_8.json",
+          "sha256": "63238e98adf25073c097b617d0fdd25abd3c5faf3d0b8a19b2f91289ccefe9e5",
+          "mtime_utc": "2026-10-02T05:06:09.599605+00:00"
+        },
+        {
+          "path": "sensitivity_isotonic_within/crossfit_primary_observational_draws_v5_9.csv",
+          "sha256": "8daf009a64a13872e10d45fa45f088b2633d1451f4afbcb5cabdbd28df9c1112",
+          "mtime_utc": "2026-10-02T05:06:10.142487+00:00"
+        },
+        {
+          "path": "sensitivity_isotonic_within/03_crossfit_pci_referee/crossfit_pci_draws_v5_8.csv",
+          "sha256": "f89ff88acb61ce0f147b00b2764d8093d0f1637090deae6d86ebab3e03494a3d",
+          "mtime_utc": "2026-10-02T05:06:09.594198+00:00"
+        },
+        {
+          "path": "sensitivity_isotonic_within/crossfit_primary_phase_probs_v5_9.csv",
+          "sha256": "8270069fd7236f0ade5cdbb62a1829c3d51947cf40dc93a2145ba2a5232da8c3",
+          "mtime_utc": "2026-10-02T05:06:10.470984+00:00"
+        },
+        {
+          "path": "sensitivity_isotonic_within/crossfit_primary_sr_thresholds_v5_9.csv",
+          "sha256": "2565182b99b527f9c9d658d400f4102c917310dee1760e752af097bf85101766",
+          "mtime_utc": "2026-10-02T05:06:10.470034+00:00"
+        }
+      ]
+    },
+    {
+      "name": "sensitivity_sigmoid_event",
+      "started_utc": "2026-10-02T05:06:11.396457+00:00",
+      "completed_utc": "2026-10-02T05:06:14.724376+00:00",
+      "exit_code": 0,
+      "provider_status": "PROVIDER_RETURN_PASS_2D",
+      "final_status": "CROSSFIT_PRIMARY_REPORT_COMPLETE_STABLE_5PCT",
+      "crossfit_status": "CROSSFIT_STABLE_5PCT",
+      "r_draw_rows": 150,
+      "pci_bootstrap_rows": 12,
+      "invalid_draws": 0,
+      "invalid_mass": 0.0,
+      "threshold_tax_total_referee": 1.0220024415595768,
+      "threshold_tax_percent": 2.2002441559576758,
+      "max_r_arithmetic_absolute_error": 1.1102230246251565e-16,
+      "max_phase_mass_absolute_error": 0.0,
+      "max_recomputed_phase_absolute_error": 0,
+      "max_threshold_quantile_absolute_error": 0,
+      "checks": {
+        "sensitivity_sigmoid_event:fresh_run_timestamps": true,
+        "sensitivity_sigmoid_event:generated_files_fresh": true,
+        "sensitivity_sigmoid_event:report_is_current_output": true,
+        "sensitivity_sigmoid_event:child_exit_zero": true,
+        "sensitivity_sigmoid_event:nested_logs_exit_zero": true,
+        "sensitivity_sigmoid_event:provider_pass_2d": true,
+        "sensitivity_sigmoid_event:complete_report": true,
+        "sensitivity_sigmoid_event:stable_5percent": true,
+        "sensitivity_sigmoid_event:synthetic_settings": true,
+        "sensitivity_sigmoid_event:150_r_draws": true,
+        "sensitivity_sigmoid_event:12_pci_draws": true,
+        "sensitivity_sigmoid_event:finite_r_posterior_fields": true,
+        "sensitivity_sigmoid_event:finite_pci_bootstrap_fields": true,
+        "sensitivity_sigmoid_event:finite_threshold_fields": true,
+        "sensitivity_sigmoid_event:finite_phase_fields": true,
+        "sensitivity_sigmoid_event:r_and_sqrt_arithmetic_consistent": true,
+        "sensitivity_sigmoid_event:pci_probabilities_bounded": true,
+        "sensitivity_sigmoid_event:reported_invalid_mass_matches": true,
+        "sensitivity_sigmoid_event:16_phase_rows_and_mass_sums": true,
+        "sensitivity_sigmoid_event:phase_probabilities_bounded": true,
+        "sensitivity_sigmoid_event:phase_classifications_match_generated_draws": true,
+        "sensitivity_sigmoid_event:threshold_quantiles_match_draws": true,
+        "sensitivity_sigmoid_event:no_failed_provider_checks": true
+      },
+      "artifacts": [
+        {
+          "path": "sensitivity_sigmoid_event/FTL_A2_CROSSFIT_PRIMARY_E2E_REPORT_v5_9.json",
+          "sha256": "43dbbcadfc8e9af0ac2b0f03e91dbc1a2e226d0688cdcb1d78ee4738a2a0f83b",
+          "mtime_utc": "2026-10-02T05:06:14.724797+00:00"
+        },
+        {
+          "path": "sensitivity_sigmoid_event/03_crossfit_pci_referee/crossfit_pci_report_v5_8.json",
+          "sha256": "9066ad29e3b3fcca915be55021d72fbce4867f42b69b1a2389db644e86a431ba",
+          "mtime_utc": "2026-10-02T05:06:13.804623+00:00"
+        },
+        {
+          "path": "sensitivity_sigmoid_event/crossfit_primary_observational_draws_v5_9.csv",
+          "sha256": "964536f4f3465cc2e1eb4e35177ac87835e6b81ee15496f28f94560a9fe192ee",
+          "mtime_utc": "2026-10-02T05:06:14.389554+00:00"
+        },
+        {
+          "path": "sensitivity_sigmoid_event/03_crossfit_pci_referee/crossfit_pci_draws_v5_8.csv",
+          "sha256": "caf0523f5c4213decf21fb03a581dbd25610cfce23ca8c843d10037920b28d56",
+          "mtime_utc": "2026-10-02T05:06:13.800296+00:00"
+        },
+        {
+          "path": "sensitivity_sigmoid_event/crossfit_primary_phase_probs_v5_9.csv",
+          "sha256": "1fdad188583f30d126fdbd9799470a2c404329a5f77538f5d2cc69ec9c4b9a31",
+          "mtime_utc": "2026-10-02T05:06:14.724348+00:00"
+        },
+        {
+          "path": "sensitivity_sigmoid_event/crossfit_primary_sr_thresholds_v5_9.csv",
+          "sha256": "dfbd742e2aa66df0520d95e4c97fd9ac4421e7f1a638d07d9b865aa0368b95f2",
+          "mtime_utc": "2026-10-02T05:06:14.721970+00:00"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "interpretation": "Synthetic execution and output consistency pass only. All three configurations report stable at 5%, with nonzero estimator taxes; no invalid R draws. This does not validate estimator coverage, missing v6.3 mathematics, real-data provenance or physical FTL.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0"
+  },
+  "parameters": {
+    "bootstrap": 150,
+    "pci_bootstrap": 12,
+    "n_per_class": 800,
+    "folds": 3,
+    "seed": 60,
+    "wcap": 10,
+    "allow_synthetic": true,
+    "timeout_seconds": 180,
+    "label": "ftl_resumption_synthetic_v6"
+  },
+  "source": {
+    "record": "https://zenodo.org/records/20218030",
+    "kit": "FTL_A2_STRICT_PROTOCOL_FREEZE_KIT_v6_0.zip",
+    "sha256": "e865df05a1aa01322020807dd31b1d835edecff26df1960f72734ca3fa3f23c3"
+  },
+  "claim_boundary": "Synthetic execution and output consistency only; no real-data or missing-v6.3 validation."
+}
