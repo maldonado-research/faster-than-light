@@ -1,0 +1,42 @@
+{
+  "REGISTRATION.md": {
+    "sha256": "58abc36fcda4c68ff2f99b32f5b68157bae1739bbccb34f0cde3e70a6feaeb5d",
+    "bytes": 10706
+  },
+  "check.py": {
+    "sha256": "0971cfd61c788cd30a33ea8d25291a5e2d176f413c896bb1bb47bca71539ddee",
+    "bytes": 24611
+  },
+  "RESULTS.json": {
+    "sha256": "91baeaccfad2d0d42ddccfdc8418b4ccb9c818e618c594682c008c8f39e92afe",
+    "bytes": 120839
+  },
+  "AUDIT.md": {
+    "sha256": "b77ac557cffc6efa3a840f11f0b3a5e38b21f128728a8dc26d761a2d0a09428c",
+    "bytes": 17372
+  },
+  "OVERWRITE_GUARD.json": {
+    "sha256": "eb588243fddaf697e2d189f27fa51e9bc2de8ce47dce2a85ca7fb4ff197581d7",
+    "bytes": 529
+  },
+  "INITIAL_CHECK.py": {
+    "sha256": "c4cc83fe5fc55d1734bb35d87803ca8d2b3ff1a86ab1a71db2c35d4465144e92",
+    "bytes": 17112
+  },
+  "INITIAL_RESULTS.json": {
+    "sha256": "8d72c70b9ef1d98225133e6ec49b2df0380c6d970310f6bf0f56a7c8696a559e",
+    "bytes": 34830
+  },
+  "INITIAL_AUDIT.md": {
+    "sha256": "3735f578fc1f282d9594b4184a9efd0765ab2b8a09ae3f74314d6a1e474b7f8b",
+    "bytes": 13939
+  },
+  "INITIAL_REGISTRATION.md": {
+    "sha256": "32f387285dd2e9614553401020dabc0684f03481d440b62771832294d13da3fe",
+    "bytes": 7055
+  },
+  "INITIAL_MANIFEST.json": {
+    "sha256": "41aa1e2dc55a85efae5305f72ef39ce71e007eab1380ab380f2f6b20243ce894",
+    "bytes": 501
+  }
+}

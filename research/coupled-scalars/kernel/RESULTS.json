@@ -1,0 +1,846 @@
+{
+  "run_utc": "2026-10-03T00:57:37.306010+00:00",
+  "python": "3.12.14",
+  "dependencies": "Python >=3.10 standard library only",
+  "claim_status": "Conditional 1+1D scalar analogue; no observations, detector prediction or novelty claim",
+  "prior_formula_knowledge": "Algebraic derivation disclosed before this decisive run",
+  "script_sha256": "4bdd99418bdd372703f03ea275b7f2d840ebeeb61469ae6e1403c323f1d3d5f4",
+  "registration_sha256": "9cb442a3ba3a6972d10eda6bf08a38a1fe13f6b400999f14f5b3327507a1c58a",
+  "root_registration_sha256": "23c5d75de7f38c9f97388fcc4fb941e964449766923164a0a10fc7c55c2fc841",
+  "passed": true,
+  "failures": [],
+  "checks": {
+    "exact_triangle_moments": 36,
+    "transform_cases": 24,
+    "exact_transform_identities": 48,
+    "massive_front_cell_evaluations": 14,
+    "massive_front_quadrature_grids": 28,
+    "massive_front_scalar_integrals": 56,
+    "massless_quadrature_grids": 2,
+    "massless_normalization_checks": 4,
+    "full_response_bound_cells": 14,
+    "front_monotonicity_checks": 8,
+    "front_power_checks": 8,
+    "front_slope_checks": 2,
+    "stability_controls": 3
+  },
+  "parameters": {
+    "a": "2",
+    "m": "1",
+    "M": "1",
+    "g": "1/2",
+    "resolutions": [
+      64,
+      128
+    ],
+    "bessel_series_terms": 12,
+    "distinct_massive_front_cells": 12
+  },
+  "tolerances": {
+    "two_resolution_relative": 1e-09,
+    "analytic_normalized_bound_slack": 2e-12,
+    "massless_normalization_absolute": 1e-13,
+    "front_power_and_slope_relative": 0.01
+  },
+  "bessel_truncation_bounds_at_z2_le_1": {
+    "J0": "1/3849406932415634472960000",
+    "2J1_over_z": "1/50042290121403248148480000"
+  },
+  "maximum_relative_resolution_change": 3.056596934885074e-11,
+  "massless_normalization": [
+    {
+      "resolution": 32,
+      "H_integral": 0.5,
+      "K_integral": 0.041666666666666664,
+      "maximum_bessel_argument_square": 0.0
+    },
+    {
+      "resolution": 64,
+      "H_integral": 0.5,
+      "K_integral": 0.041666666666666664,
+      "maximum_bessel_argument_square": 0.0
+    }
+  ],
+  "cells": [
+    {
+      "case": "stable",
+      "t": "1/100",
+      "r": "1/80",
+      "r_over_t": "5/4",
+      "gap": "3/400",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49999716797452926,
+        0.49999716797452926
+      ],
+      "K_integrals": [
+        0.04166652018251199,
+        0.04166652018249926
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 3.055899618662615e-13,
+      "H_over_H0": 0.9999943359490585,
+      "K_over_K0": 0.9999964843799822,
+      "H_massive_coefficient": 2.343736724880606e-06,
+      "K_massive_coefficient": 3.6620965004149736e-12,
+      "leading_chi_coefficient_g2_K": 9.155241251037434e-13,
+      "maximum_bessel_argument_square": 6.09375e-05,
+      "analytic_exact_rational_bounds": {
+        "gap": "3/400",
+        "H0": "3/1280000",
+        "K0": "3/819200000000",
+        "relative_error_bound_H": "3/128000",
+        "relative_error_bound_K": "27/1280000",
+        "small_time_factor": "63995200119999/64000000000000",
+        "chi_exact_lower": "191985600359997/209715200000000000000000000",
+        "chi_exact_refined_lower": "3839919/4194304000000000000",
+        "chi_exact_upper": "114688000000041/125269879466659020800000000",
+        "higher_mixing_upper": "3/7829367466666188800000000",
+        "higher_mixing_geometric_ratio": "1/16384000000000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.0075,
+        "H0": 2.34375e-06,
+        "K0": 3.662109375e-12,
+        "relative_error_bound_H": 2.34375e-05,
+        "relative_error_bound_K": 2.109375e-05,
+        "small_time_factor": 0.9999250018749843,
+        "chi_exact_lower": 9.154586809158183e-13,
+        "chi_exact_refined_lower": 9.155080318450927e-13,
+        "chi_exact_upper": 9.155273437503832e-13,
+        "higher_mixing_upper": 3.8317271641324885e-25,
+        "higher_mixing_geometric_ratio": 6.103515625e-14
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/100",
+      "r": "3/200",
+      "r_over_t": "3/2",
+      "gap": "1/200",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.4999980468777873,
+        0.4999980468777873
+      ],
+      "K_integrals": [
+        0.04166656684038658,
+        0.04166656684037574
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 2.6012587788731166e-13,
+      "H_over_H0": 0.9999960937555746,
+      "K_over_K0": 0.9999976041690178,
+      "H_massive_coefficient": 1.041662597662057e-06,
+      "K_massive_coefficient": 7.23377896534301e-13,
+      "leading_chi_coefficient_g2_K": 1.8084447413357526e-13,
+      "maximum_bessel_argument_square": 4.375000000000001e-05,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/200",
+        "H0": "1/960000",
+        "K0": "1/1382400000000",
+        "relative_error_bound_H": "7/480000",
+        "relative_error_bound_K": "13/960000",
+        "small_time_factor": "63995200119999/64000000000000",
+        "chi_exact_lower": "2370192597037/13107200000000000000000000",
+        "chi_exact_refined_lower": "959987/5308416000000000000",
+        "chi_exact_upper": "387072000000041/2140353331199961292800000000",
+        "higher_mixing_upper": "1/44590694399999193600000000",
+        "higher_mixing_geometric_ratio": "1/55296000000000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.005,
+        "H0": 1.0416666666666667e-06,
+        "K0": 7.233796296296296e-13,
+        "relative_error_bound_H": 1.4583333333333333e-05,
+        "relative_error_bound_K": 1.3541666666666666e-05,
+        "small_time_factor": 0.9999250018749843,
+        "chi_exact_lower": 1.8083134437843322e-13,
+        "chi_exact_refined_lower": 1.8084245846595294e-13,
+        "chi_exact_upper": 1.8084490740742984e-13,
+        "higher_mixing_upper": 2.242620379556184e-26,
+        "higher_mixing_geometric_ratio": 1.808449074074074e-14
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/100",
+      "r": "7/400",
+      "r_over_t": "7/4",
+      "gap": "1/400",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49999899088617067,
+        0.49999899088617067
+      ],
+      "K_integrals": [
+        0.041666615668435505,
+        0.041666615668428914
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 1.5820697464773058e-13,
+      "H_over_H0": 0.9999979817723413,
+      "K_over_K0": 0.9999987760422939,
+      "H_massive_coefficient": 2.6041614108654726e-07,
+      "K_massive_coefficient": 4.5211171515222344e-14,
+      "leading_chi_coefficient_g2_K": 1.1302792878805586e-14,
+      "maximum_bessel_argument_square": 2.343749999999999e-05,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/400",
+        "H0": "1/3840000",
+        "K0": "1/22118400000000",
+        "relative_error_bound_H": "13/1920000",
+        "relative_error_bound_K": "1/153600",
+        "small_time_factor": "63995200119999/64000000000000",
+        "chi_exact_lower": "2370192597037/209715200000000000000000000",
+        "chi_exact_refined_lower": "153599/13589544960000000000",
+        "chi_exact_upper": "3096576000000041/273965226393599380684800000000",
+        "higher_mixing_upper": "1/5707608883199987097600000000",
+        "higher_mixing_geometric_ratio": "1/442368000000000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.0025,
+        "H0": 2.604166666666667e-07,
+        "K0": 4.521122685185185e-14,
+        "relative_error_bound_H": 6.770833333333333e-06,
+        "relative_error_bound_K": 6.510416666666667e-06,
+        "small_time_factor": 0.9999250018749843,
+        "chi_exact_lower": 1.1301959023652076e-14,
+        "chi_exact_refined_lower": 1.1302733126981758e-14,
+        "chi_exact_upper": 1.1302806712963138e-14,
+        "higher_mixing_upper": 1.752047171528241e-28,
+        "higher_mixing_geometric_ratio": 2.2605613425925925e-15
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/20",
+      "r": "1/16",
+      "r_over_t": "5/4",
+      "gap": "3/80",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.4999292028306952,
+        0.4999292028306952
+      ],
+      "K_integrals": [
+        0.04166300468684301,
+        0.0416630046865247
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 7.64006058729817e-12,
+      "H_over_H0": 0.9998584056613904,
+      "K_over_K0": 0.9999121124765928,
+      "H_massive_coefficient": 5.858545345672209e-05,
+      "K_massive_coefficient": 2.2886172007978656e-09,
+      "leading_chi_coefficient_g2_K": 5.721543001994664e-10,
+      "maximum_bessel_argument_square": 0.0015234375000000003,
+      "analytic_exact_rational_bounds": {
+        "gap": "3/80",
+        "H0": "3/51200",
+        "K0": "3/1310720000",
+        "relative_error_bound_H": "3/5120",
+        "relative_error_bound_K": "27/51200",
+        "small_time_factor": "4088324799/4096000000",
+        "chi_exact_lower": "12264974397/21474836480000000000",
+        "chi_exact_refined_lower": "153519/268435456000000",
+        "chi_exact_upper": "61166933347/106896963807477760000",
+        "higher_mixing_upper": "1/6681060237967360000",
+        "higher_mixing_geometric_ratio": "1/26214400000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.0375,
+        "H0": 5.859375e-05,
+        "K0": 2.288818359375e-09,
+        "relative_error_bound_H": 0.0005859375,
+        "relative_error_bound_K": 0.00052734375,
+        "small_time_factor": 0.9981261716308594,
+        "chi_exact_lower": 5.711323766503483e-10,
+        "chi_exact_refined_lower": 5.719028413295745e-10,
+        "chi_exact_upper": 5.722045899934268e-10,
+        "higher_mixing_upper": 1.496768423546259e-19,
+        "higher_mixing_geometric_ratio": 3.814697265625e-11
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/20",
+      "r": "3/40",
+      "r_over_t": "3/2",
+      "gap": "1/40",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49995117361701236,
+        0.49995117361701236
+      ],
+      "K_integrals": [
+        0.0416641710680103,
+        0.04166417106773948
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 6.500023479053189e-12,
+      "H_over_H0": 0.9999023472340247,
+      "K_over_K0": 0.9999401056257475,
+      "H_massive_coefficient": 2.603912362588606e-05,
+      "K_massive_coefficient": 4.5208518953710375e-10,
+      "leading_chi_coefficient_g2_K": 1.1302129738427594e-10,
+      "maximum_bessel_argument_square": 0.0010937500000000003,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/40",
+        "H0": "1/38400",
+        "K0": "1/2211840000",
+        "relative_error_bound_H": "7/19200",
+        "relative_error_bound_K": "13/38400",
+        "small_time_factor": "4088324799/4096000000",
+        "chi_exact_lower": "151419437/1342177280000000000",
+        "chi_exact_refined_lower": "38387/339738624000000",
+        "chi_exact_upper": "619315200041/5479304527810068480000",
+        "higher_mixing_upper": "1/114152177662709760000",
+        "higher_mixing_geometric_ratio": "1/88473600000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.025,
+        "H0": 2.604166666666667e-05,
+        "K0": 4.521122685185185e-10,
+        "relative_error_bound_H": 0.00036458333333333335,
+        "relative_error_bound_K": 0.0003385416666666667,
+        "small_time_factor": 0.9981261716308594,
+        "chi_exact_lower": 1.12816271930933e-10,
+        "chi_exact_refined_lower": 1.1298980241940345e-10,
+        "chi_exact_upper": 1.1302806713838986e-10,
+        "higher_mixing_upper": 8.7602358577402e-21,
+        "higher_mixing_geometric_ratio": 1.1302806712962963e-11
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/20",
+      "r": "7/80",
+      "r_over_t": "7/4",
+      "gap": "1/80",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.4999747726066861,
+        0.4999747726066861
+      ],
+      "K_integrals": [
+        0.041665391726305165,
+        0.04166539172614045
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 3.953292088877901e-12,
+      "H_over_H0": 0.9999495452133722,
+      "K_over_K0": 0.9999694014273708,
+      "H_massive_coefficient": 6.510088184982892e-06,
+      "K_massive_coefficient": 2.8256152158027107e-11,
+      "leading_chi_coefficient_g2_K": 7.064038039506777e-12,
+      "maximum_bessel_argument_square": 0.0005859375000000005,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/80",
+        "H0": "1/153600",
+        "K0": "1/35389440000",
+        "relative_error_bound_H": "13/76800",
+        "relative_error_bound_K": "1/6144",
+        "small_time_factor": "4088324799/4096000000",
+        "chi_exact_lower": "151419437/21474836480000000000",
+        "chi_exact_refined_lower": "6143/869730877440000",
+        "chi_exact_upper": "4954521600041/701350979566625095680000",
+        "higher_mixing_upper": "1/14611478740971356160000",
+        "higher_mixing_geometric_ratio": "1/707788800000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.0125,
+        "H0": 6.510416666666667e-06,
+        "K0": 2.8257016782407408e-11,
+        "relative_error_bound_H": 0.00016927083333333334,
+        "relative_error_bound_K": 0.00016276041666666666,
+        "small_time_factor": 0.9981261716308594,
+        "chi_exact_lower": 7.051016995683313e-12,
+        "chi_exact_refined_lower": 7.063104414645536e-12,
+        "chi_exact_upper": 7.0642541956702914e-12,
+        "higher_mixing_upper": 6.843934263791845e-23,
+        "higher_mixing_geometric_ratio": 1.4128508391203703e-12
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/10",
+      "r": "1/8",
+      "r_over_t": "5/4",
+      "gap": "3/40",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49971685466150234,
+        0.4997168546615036
+      ],
+      "K_integrals": [
+        0.04165202029779154,
+        0.041652020296518405
+      ],
+      "relative_resolution_change_H": 2.554959806556404e-15,
+      "relative_resolution_change_K": 3.056596934885074e-11,
+      "H_over_H0": 0.9994337093230072,
+      "K_over_K0": 0.9996484871164417,
+      "H_massive_coefficient": 0.0002342422756225798,
+      "K_massive_coefficient": 3.660822096373688e-08,
+      "leading_chi_coefficient_g2_K": 9.15205524093422e-09,
+      "maximum_bessel_argument_square": 0.006093750000000001,
+      "analytic_exact_rational_bounds": {
+        "gap": "3/40",
+        "H0": "3/12800",
+        "K0": "3/81920000",
+        "relative_error_bound_H": "3/1280",
+        "relative_error_bound_K": "27/12800",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "190563597/20971520000000000",
+        "chi_exact_refined_lower": "38319/4194304000000",
+        "chi_exact_upper": "11468800041/1252698793902080000",
+        "higher_mixing_upper": "3/78293674618880000",
+        "higher_mixing_geometric_ratio": "1/1638400000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.075,
+        "H0": 0.000234375,
+        "K0": 3.662109375e-08,
+        "relative_error_bound_H": 0.00234375,
+        "relative_error_bound_K": 0.002109375,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 9.086780405044556e-09,
+        "chi_exact_refined_lower": 9.135961532592773e-09,
+        "chi_exact_upper": 9.155273475817272e-09,
+        "higher_mixing_upper": 3.831727166470955e-17,
+        "higher_mixing_geometric_ratio": 6.103515625e-10
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/10",
+      "r": "3/20",
+      "r_over_t": "3/2",
+      "gap": "1/20",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49980471537062787,
+        0.49980471537062826
+      ],
+      "K_integrals": [
+        0.0416566850013249,
+        0.04165668500024174
+      ],
+      "relative_resolution_change_H": 7.774597691233389e-16,
+      "relative_resolution_change_K": 2.6001934611449006e-11,
+      "H_over_H0": 0.9996094307412565,
+      "K_over_K0": 0.9997604400058018,
+      "H_massive_coefficient": 0.0001041259823688809,
+      "K_massive_coefficient": 7.232063368097524e-09,
+      "leading_chi_coefficient_g2_K": 1.808015842024381e-09,
+      "maximum_bessel_argument_square": 0.004375000000000001,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/20",
+        "H0": "1/9600",
+        "K0": "1/138240000",
+        "relative_error_bound_H": "7/4800",
+        "relative_error_bound_K": "13/9600",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/1310720000000000",
+        "chi_exact_refined_lower": "9587/5308416000000",
+        "chi_exact_upper": "38707200041/21403533308129280000",
+        "higher_mixing_upper": "1/445906943919360000",
+        "higher_mixing_geometric_ratio": "1/5529600000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.05,
+        "H0": 0.00010416666666666667,
+        "K0": 7.233796296296296e-09,
+        "relative_error_bound_H": 0.0014583333333333334,
+        "relative_error_bound_K": 0.0013541666666666667,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 1.7949195861816407e-09,
+        "chi_exact_refined_lower": 1.8060001326195988e-09,
+        "chi_exact_upper": 1.8084490763166945e-09,
+        "higher_mixing_upper": 2.24262037996171e-18,
+        "higher_mixing_geometric_ratio": 1.808449074074074e-10
+      }
+    },
+    {
+      "case": "stable",
+      "t": "1/10",
+      "r": "7/40",
+      "r_over_t": "7/4",
+      "gap": "1/40",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49989909608175304,
+        0.49989909608175304
+      ],
+      "K_integrals": [
+        0.04166156709793542,
+        0.04166156709727661
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 1.5813454164318703e-11,
+      "H_over_H0": 0.9997981921635061,
+      "K_over_K0": 0.9998776103346385,
+      "H_massive_coefficient": 2.6036411254257973e-05,
+      "K_massive_coefficient": 4.5205693464926873e-10,
+      "leading_chi_coefficient_g2_K": 1.1301423366231718e-10,
+      "maximum_bessel_argument_square": 0.002343750000000002,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/40",
+        "H0": "1/38400",
+        "K0": "1/2211840000",
+        "relative_error_bound_H": "13/19200",
+        "relative_error_bound_K": "1/1536",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/20971520000000000",
+        "chi_exact_refined_lower": "307/2717908992000",
+        "chi_exact_upper": "309657600041/2739652263874068480000",
+        "higher_mixing_upper": "1/57076088830709760000",
+        "higher_mixing_geometric_ratio": "1/44236800000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.025,
+        "H0": 2.604166666666667e-05,
+        "K0": 4.521122685185185e-10,
+        "relative_error_bound_H": 0.0006770833333333334,
+        "relative_error_bound_K": 0.0006510416666666666,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 1.1218247413635254e-10,
+        "chi_exact_refined_lower": 1.1295448114842544e-10,
+        "chi_exact_upper": 1.130280671471501e-10,
+        "higher_mixing_upper": 1.7520471715678432e-20,
+        "higher_mixing_geometric_ratio": 2.2605613425925926e-11
+      }
+    },
+    {
+      "case": "front",
+      "t": "1/10",
+      "r": "3/20",
+      "r_over_t": "3/2",
+      "gap": "1/20",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49980471537062787,
+        0.49980471537062826
+      ],
+      "K_integrals": [
+        0.0416566850013249,
+        0.04165668500024174
+      ],
+      "relative_resolution_change_H": 7.774597691233389e-16,
+      "relative_resolution_change_K": 2.6001934611449006e-11,
+      "H_over_H0": 0.9996094307412565,
+      "K_over_K0": 0.9997604400058018,
+      "H_massive_coefficient": 0.0001041259823688809,
+      "K_massive_coefficient": 7.232063368097524e-09,
+      "leading_chi_coefficient_g2_K": 1.808015842024381e-09,
+      "maximum_bessel_argument_square": 0.004375000000000001,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/20",
+        "H0": "1/9600",
+        "K0": "1/138240000",
+        "relative_error_bound_H": "7/4800",
+        "relative_error_bound_K": "13/9600",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/1310720000000000",
+        "chi_exact_refined_lower": "9587/5308416000000",
+        "chi_exact_upper": "38707200041/21403533308129280000",
+        "higher_mixing_upper": "1/445906943919360000",
+        "higher_mixing_geometric_ratio": "1/5529600000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.05,
+        "H0": 0.00010416666666666667,
+        "K0": 7.233796296296296e-09,
+        "relative_error_bound_H": 0.0014583333333333334,
+        "relative_error_bound_K": 0.0013541666666666667,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 1.7949195861816407e-09,
+        "chi_exact_refined_lower": 1.8060001326195988e-09,
+        "chi_exact_upper": 1.8084490763166945e-09,
+        "higher_mixing_upper": 2.24262037996171e-18,
+        "higher_mixing_geometric_ratio": 1.808449074074074e-10
+      }
+    },
+    {
+      "case": "front",
+      "t": "1/10",
+      "r": "7/40",
+      "r_over_t": "7/4",
+      "gap": "1/40",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49989909608175304,
+        0.49989909608175304
+      ],
+      "K_integrals": [
+        0.04166156709793542,
+        0.04166156709727661
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 1.5813454164318703e-11,
+      "H_over_H0": 0.9997981921635061,
+      "K_over_K0": 0.9998776103346385,
+      "H_massive_coefficient": 2.6036411254257973e-05,
+      "K_massive_coefficient": 4.5205693464926873e-10,
+      "leading_chi_coefficient_g2_K": 1.1301423366231718e-10,
+      "maximum_bessel_argument_square": 0.002343750000000002,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/40",
+        "H0": "1/38400",
+        "K0": "1/2211840000",
+        "relative_error_bound_H": "13/19200",
+        "relative_error_bound_K": "1/1536",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/20971520000000000",
+        "chi_exact_refined_lower": "307/2717908992000",
+        "chi_exact_upper": "309657600041/2739652263874068480000",
+        "higher_mixing_upper": "1/57076088830709760000",
+        "higher_mixing_geometric_ratio": "1/44236800000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.025,
+        "H0": 2.604166666666667e-05,
+        "K0": 4.521122685185185e-10,
+        "relative_error_bound_H": 0.0006770833333333334,
+        "relative_error_bound_K": 0.0006510416666666666,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 1.1218247413635254e-10,
+        "chi_exact_refined_lower": 1.1295448114842544e-10,
+        "chi_exact_upper": 1.130280671471501e-10,
+        "higher_mixing_upper": 1.7520471715678432e-20,
+        "higher_mixing_geometric_ratio": 2.2605613425925926e-11
+      }
+    },
+    {
+      "case": "front",
+      "t": "1/10",
+      "r": "3/16",
+      "r_over_t": "15/8",
+      "gap": "1/80",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49994873242771615,
+        0.49994873242771626
+      ],
+      "K_integrals": [
+        0.0416640896931323,
+        0.041664089692773576
+      ],
+      "relative_resolution_change_H": 2.220673746353933e-16,
+      "relative_resolution_change_K": 8.609978993646782e-12,
+      "H_over_H0": 0.9998974648554325,
+      "K_over_K0": 0.9999381526265658,
+      "H_massive_coefficient": 6.509749120152556e-06,
+      "K_massive_coefficient": 2.8255269160138332e-11,
+      "leading_chi_coefficient_g2_K": 7.063817290034583e-12,
+      "maximum_bessel_argument_square": 0.001210937500000001,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/80",
+        "H0": "1/153600",
+        "K0": "1/35389440000",
+        "relative_error_bound_H": "1/3072",
+        "relative_error_bound_K": "49/153600",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/335544320000000000",
+        "chi_exact_refined_lower": "153551/21743271936000000",
+        "chi_exact_upper": "2477260800041/350675489782817095680000",
+        "higher_mixing_upper": "1/7305739370475356160000",
+        "higher_mixing_geometric_ratio": "1/353894400000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.0125,
+        "H0": 6.510416666666667e-06,
+        "K0": 2.8257016782407408e-11,
+        "relative_error_bound_H": 0.0003255208333333333,
+        "relative_error_bound_K": 0.00031901041666666666,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 7.011404633522034e-12,
+        "chi_exact_refined_lower": 7.062000624927474e-12,
+        "chi_exact_upper": 7.064254195738731e-12,
+        "higher_mixing_upper": 1.368786852760303e-22,
+        "higher_mixing_geometric_ratio": 2.8257016782407407e-12
+      }
+    },
+    {
+      "case": "front",
+      "t": "1/10",
+      "r": "31/160",
+      "r_over_t": "31/16",
+      "gap": "1/160",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.49997416228298824,
+        0.49997416228298824
+      ],
+      "K_integrals": [
+        0.041665371381944406,
+        0.041665371381757715
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 4.480721863104827e-12,
+      "H_over_H0": 0.9999483245659765,
+      "K_over_K0": 0.9999689131621852,
+      "H_massive_coefficient": 1.6275200595149358e-06,
+      "K_massive_coefficient": 1.7660086475693476e-12,
+      "leading_chi_coefficient_g2_K": 4.415021618923369e-13,
+      "maximum_bessel_argument_square": 0.0006152343750000007,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/160",
+        "H0": "1/614400",
+        "K0": "1/566231040000",
+        "relative_error_bound_H": "49/307200",
+        "relative_error_bound_K": "97/614400",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/5368709120000000000",
+        "chi_exact_refined_lower": "614303/1391569403904000000",
+        "chi_exact_upper": "19818086400041/44886462692311569530880000",
+        "higher_mixing_upper": "1/935134639423157698560000",
+        "higher_mixing_geometric_ratio": "1/2831155200000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.00625,
+        "H0": 1.6276041666666668e-06,
+        "K0": 1.766063548900463e-12,
+        "relative_error_bound_H": 0.00015950520833333333,
+        "relative_error_bound_K": 0.00015787760416666665,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 4.382127895951271e-13,
+        "chi_exact_refined_lower": 4.414461817546391e-13,
+        "chi_exact_upper": 4.415158872261851e-13,
+        "higher_mixing_upper": 1.0693647287163428e-24,
+        "higher_mixing_geometric_ratio": 3.532127097800926e-13
+      }
+    },
+    {
+      "case": "front",
+      "t": "1/10",
+      "r": "63/320",
+      "r_over_t": "63/32",
+      "gap": "1/320",
+      "resolutions": [
+        64,
+        128
+      ],
+      "H_integrals": [
+        0.4999870301552638,
+        0.4999870301552638
+      ],
+      "K_integrals": [
+        0.04166601732473274,
+        0.041666017324637566
+      ],
+      "relative_resolution_change_H": 0.0,
+      "relative_resolution_change_K": 2.2842084484449682e-12,
+      "H_over_H0": 0.9999740603105276,
+      "K_over_K0": 0.9999844157913016,
+      "H_massive_coefficient": 4.0689048677999985e-07,
+      "K_massive_coefficient": 1.1037725163734639e-13,
+      "leading_chi_coefficient_g2_K": 2.7594312909336597e-14,
+      "maximum_bessel_argument_square": 0.00031005859375000163,
+      "analytic_exact_rational_bounds": {
+        "gap": "1/320",
+        "H0": "1/2457600",
+        "K0": "1/9059696640000",
+        "relative_error_bound_H": "97/1228800",
+        "relative_error_bound_K": "193/2457600",
+        "small_time_factor": "63521199/64000000",
+        "chi_exact_lower": "2352637/85899345920000000000",
+        "chi_exact_refined_lower": "2457407/89060441849856000000",
+        "chi_exact_upper": "158544691200041/5745467224617656600494080000",
+        "higher_mixing_upper": "1/119697233846201179176960000",
+        "higher_mixing_geometric_ratio": "1/22649241600000"
+      },
+      "analytic_bounds_float": {
+        "gap": 0.003125,
+        "H0": 4.069010416666667e-07,
+        "K0": 1.1037897180627894e-13,
+        "relative_error_bound_H": 7.893880208333333e-05,
+        "relative_error_bound_K": 7.853190104166666e-05,
+        "small_time_factor": 0.992518734375,
+        "chi_exact_lower": 2.7388299349695445e-14,
+        "chi_exact_refined_lower": 2.7592575883946992e-14,
+        "chi_exact_upper": 2.759474295157809e-14,
+        "higher_mixing_upper": 8.354411943093845e-27,
+        "higher_mixing_geometric_ratio": 4.4151588722511573e-14
+      }
+    }
+  ],
+  "final_front_slope_checks": [
+    {
+      "ratio": "H_over_H0",
+      "actual_slope": 0.008300700631167501,
+      "expected_slope": 0.008333333333333333,
+      "relative_error": 0.003915924259899825
+    },
+    {
+      "ratio": "K_over_K0",
+      "actual_slope": 0.004986946783489543,
+      "expected_slope": 0.005,
+      "relative_error": 0.0026106433020913963
+    }
+  ],
+  "stability_controls": [
+    {
+      "m_and_M": "1",
+      "g": "1/2",
+      "minimum_omega2_at_k0": "1/2",
+      "potential_determinant": "3/4",
+      "stable": true
+    },
+    {
+      "m_and_M": "0",
+      "g": "1/2",
+      "minimum_omega2_at_k0": "-1/2",
+      "potential_determinant": "-1/4",
+      "stable": false
+    },
+    {
+      "m_and_M": "0",
+      "g": "-1/2",
+      "minimum_omega2_at_k0": "-1/2",
+      "potential_determinant": "-1/4",
+      "stable": false
+    }
+  ],
+  "full_response_status": "Exact positive lower/upper bounds from convergent Volterra series; full kernel not numerically Fourier-inverted"
+}

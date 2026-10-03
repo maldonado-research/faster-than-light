@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-03T01:01:49.707504+00:00",
+  "files": {
+    "SKEPTICAL_SCOPE_AUDIT.md": {
+      "sha256": "945f4445ca55391d1b18374a2bf2fc172ea876cce64ac2f30608ecf330db7b32",
+      "bytes": 11823
+    },
+    "FINAL_REPORTING_AUDIT.json": {
+      "sha256": "e83d616c3d776b8d3b3ad5e3812e10b2f884ef9dc367d4eae11c0b3ef0a7ba47",
+      "bytes": 6199
+    }
+  },
+  "phase": "final local-results review; final public source/links pending"
+}

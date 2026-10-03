@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-10-03T00:49:46.479243+00:00",
+  "decisive_runs_before_this_binding": false,
+  "normalized_residual_definition_accepted_by_coordinator_before_run": true,
+  "sha256": {
+    "REGISTRATION.md": "23c5d75de7f38c9f97388fcc4fb941e964449766923164a0a10fc7c55c2fc841",
+    "REGISTRATION_ORIGINAL.md": "b86cb57adec77f12a7a76d398fdafcdf1e65a5ae7f81776148b69cee7f190718",
+    "root/IMPLEMENTATION_REGISTRATION.md": "8b7fc706d7484a965a276a1b26e11caa63545d4f1e516ecb1b435329572f5b69",
+    "root/IMPLEMENTATION_NOTES.md": "34528c6c24b28ce1ad8327ce10f0eb8ca3e7e3c93725bd8b2507844b1ad79e4f",
+    "root/reproduce.py": "c6c59a967e3f86828b8b08c3984340d19981cb60f12e24b33129d5577ff72b71"
+  }
+}

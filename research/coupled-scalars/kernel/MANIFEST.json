@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-03T01:03:30.317269+00:00",
+  "scope": "Independent 1+1D scalar mathematical audit; no public repository or Zenodo writes",
+  "files": {
+    "reproduce.py": {
+      "bytes": 14749,
+      "sha256": "4bdd99418bdd372703f03ea275b7f2d840ebeeb61469ae6e1403c323f1d3d5f4"
+    },
+    "REGISTRATION.md": {
+      "bytes": 8661,
+      "sha256": "9cb442a3ba3a6972d10eda6bf08a38a1fe13f6b400999f14f5b3327507a1c58a"
+    },
+    "RESULTS.json": {
+      "bytes": 30043,
+      "sha256": "42db6eede01ec058dd2ba97c443fe014799483943b9bc090139a44ed515d5eb1"
+    },
+    "DERIVATION.md": {
+      "bytes": 10340,
+      "sha256": "a62fb0cd30db83010b9e4032f2d4fbc580007f8ac82c4282a57bf4563f7c0fb9"
+    },
+    "AUDIT.md": {
+      "bytes": 8173,
+      "sha256": "3c1789627ed164ed53cd31cf7d9b2801477283a20113e8e1ee7c1113e3250784"
+    },
+    "INITIAL_REPRODUCE.py": {
+      "bytes": 14348,
+      "sha256": "1830892f8b9e3c0c6b1a449ba5224cfe34459e4e60e049931bfa148dbe194388"
+    },
+    "INITIAL_RESULTS.json": {
+      "bytes": 30043,
+      "sha256": "d4dd2420ef4b47260281858f158b8e4aea4f09a1e6585439b89fbc151fecfb3c"
+    }
+  },
+  "root_registration_sha256": "23c5d75de7f38c9f97388fcc4fb941e964449766923164a0a10fc7c55c2fc841",
+  "final_payload_comparison": "All initial mathematical fields equal; changed only run_utc/script_sha256/registration_sha256",
+  "output_guard_checks": 2,
+  "further_decisive_runs": 0
+}

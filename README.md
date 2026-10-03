@@ -106,3 +106,10 @@ The September 8 research snapshot and September 30 documentation edition remain 
 - [Live Zenodo verification](docs/LIVE_ARCHIVE_VERIFICATION_20261001.md): confirms v1.2.1 as the latest observed record in the published FTL concept family and records checksum-verified public kit recovery and a synthetic software smoke run.
 
 These additions are methods work, not a strict real-data A2 release or new empirical claim. The original edition's statement that no research script was run concerns that edition; subsequent executable checks are documented in the linked notes.
+
+
+## Coupled scalar methods — 2 October 2026 Pacific
+
+The [local scalar coupling exercise](docs/COUPLED_SCALAR_RESPONSE.md) adds an assumed ordinary-speed scalar analogue to the preferred-fast field. The stable region is `g^2<=m^2*M^2`. A convergent 1+1-dimensional retarded-series argument gives a nonzero same-field response between the slow and fast cones under stated small-time conditions, with a strongly suppressed onset. Exact coefficients, modes, normalization, massive bounds and corrected internal controls are [registered and reproducible](research/coupled-scalars/README.md).
+
+This is a conditional mathematical model, not a physical emitter/detector, FTL discovery, observed signal or external peer review. The coupling changes the slower scalar's dispersion; ordinary matter, rods/clocks, ultraviolet completion and a calibrated observational bridge are still unsupplied. The proposed Zenodo v1.2.2 package remains frozen to preceding methods and does not contain this new exercise.
