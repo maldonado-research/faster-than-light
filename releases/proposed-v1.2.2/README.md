@@ -34,7 +34,9 @@ Replacing files in this unpublished draft leaves the old public v1.2.1 record in
 
 ## Integration repair and current API readback
 
-On 2 October 2026 Pacific, the owner reported that signed-in Zenodo **Sync now** followed by reload repaired the GitHub integration entry and confirmed `faster-than-light` enabled. That browser evidence concerns release-trigger configuration; it does not establish that a new GitHub repository will archive into this manually created FTL DOI family. No test GitHub release was made.
+The owner's later signed-in browser check supersedes the earlier enabled-integration report: GitHub release histories were empty for all eight public repositories, and automatic GitHub archiving was switched **OFF** for the seven research repositories and shared website. Reload confirmed all eight stayed off. This is owner-reported browser evidence; the research environment did not independently inspect those switches. Existing repositories, tokens, published records and valid drafts are preserved.
+
+Keep automatic GitHub archiving off. Use the existing token/API workflow and the established FTL DOI family, reusing draft23111786. Do not re-enable archiving, create a test GitHub release, or create a second standalone record for this same work. Intentional versions in this family and genuinely separate scientific supplements are distinct from duplicate publications; similar titles alone do not justify deleting a draft or record.
 
 Fresh authenticated reads in the research environment succeeded and confirmed this same owner-scoped draft in concept17726159. Its release metadata is still empty and its files are still the two inherited kits; the methods ZIP is absent. A reserved draft DOI or HTTP200 is not a published update. The earlier JSON, binary and multipart persistence failures remain unresolved; current evidence does not show missing credentials. Official documentation and offline nonempty-body/framing checks found no justified unchanged API retry.
 

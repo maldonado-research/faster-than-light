@@ -2,6 +2,8 @@
 
 This reference is a readable rendering of the unchanged prepared JSON. The proposal is not published. Use [draft 23111786](https://zenodo.org/uploads/23111786) while signed in; preserve FTL concept DOI **10.5281/zenodo.17726159**. Do not create another concept or a test GitHub release.
 
+The owner reports automatic GitHub archiving switched off for all eight public repositories and confirmed off after reload. Keep it off; reuse the existing token/API workflow and this existing version draft. These browser switches do not repair the unresolved API body-persistence errors described in the [review guide](README.md#integration-repair-and-current-api-readback). The browser form below is the recovery fallback for this same draft.
+
 | Form field | Proposed value |
 | --- | --- |
 | Resource type | Publication → Report |
