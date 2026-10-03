@@ -1,0 +1,4448 @@
+{
+  "status": "PASS",
+  "evidence_tier": "internal registered synthetic mathematical verification",
+  "seed": 2026100305,
+  "python": "3.12.14",
+  "dependencies": "Python standard library only",
+  "script_sha256": "0971cfd61c788cd30a33ea8d25291a5e2d176f413c896bb1bb47bca71539ddee",
+  "independent_registration_sha256": "58abc36fcda4c68ff2f99b32f5b68157bae1739bbccb34f0cde3e70a6feaeb5d",
+  "root_registration_sha256_at_run": "23c5d75de7f38c9f97388fcc4fb941e964449766923164a0a10fc7c55c2fc841",
+  "root_implementation_read_before_run": false,
+  "counts": {
+    "rational_mass_and_potential": 600,
+    "rational_charge_square": 600,
+    "rational_finite_speed_flux": 600,
+    "rational_omega_at_least_light": 600,
+    "floating_characteristic_residual": 1200,
+    "floating_positive_observer_frequency": 1200,
+    "rational_mode_trace_product": 600,
+    "matrix_retarded_independent_routes": 200,
+    "exact_1d_kernel_normalization": 120,
+    "exact_cone_matching": 120,
+    "exact_front_vanishing": 120,
+    "exact_3d_radial_normalization": 120,
+    "exact_kernel_evenness_and_nonnegative": 720,
+    "exact_negative_time_support": 720,
+    "exact_kernel_second_derivative": 480,
+    "exact_g_parity": 720,
+    "exact_dimension_raising": 360,
+    "exact_3d_even_support": 600,
+    "exact_intercone_coefficients": 120,
+    "exact_outside_fast_support": 240,
+    "coincident_cone_limit": 30,
+    "fast_branch_residue_asymptotic": 72,
+    "stable_full_volterra_positive_certificate": 54,
+    "exact_heavy_phi_remainder": 60,
+    "exact_heavy_phi_low_energy_coefficients": 60,
+    "exact_boosted_principal_and_cauchy": 48,
+    "noncauchy_transverse_principal_growth": 29,
+    "boundary_stability_and_zero_mode": 6,
+    "boundary_retarded_degeneracy": 6,
+    "pathological_low_k_controls": 3,
+    "pathological_high_k_control": 1,
+    "pathological_ghost_control": 1,
+    "registered_candidate_healthy": 1,
+    "registered_mutant_rejection": 4
+  },
+  "total_checks": 10415,
+  "failures": [],
+  "maximum_characteristic_absolute_residual": 3.4428015993626104e-13,
+  "maximum_retarded_matrix_absolute_error": 1.1102230246251565e-16,
+  "maximum_fast_residue_relative_error": 4.800015360073573e-06,
+  "stable_intercone_full_response_certificates": [
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "9/800",
+      "exact_full_response_lower_bound": "575956801079991/1310720000000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/10777839080804055775082761538574284645990400000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1347229885100506971885345192321785580748800000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "1/80",
+      "exact_full_response_lower_bound": "7110577791111/81920000000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/10777839080804055775082761538574284645990400000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1347229885100506971885345192321785580748800000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "11/800",
+      "exact_full_response_lower_bound": "7110577791111/1310720000000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/10777839080804055775082761538574284645990400000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1347229885100506971885345192321785580748800000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "9/160",
+      "exact_full_response_lower_bound": "36794923191/134217728000000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/289315414834502799746462082483763015420634726400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/36164426854312849968307760310470376927579340800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "1/16",
+      "exact_full_response_lower_bound": "454258311/8388608000000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/289315414834502799746462082483763015420634726400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/36164426854312849968307760310470376927579340800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "11/160",
+      "exact_full_response_lower_bound": "454258311/134217728000000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/289315414834502799746462082483763015420634726400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/36164426854312849968307760310470376927579340800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "9/80",
+      "exact_full_response_lower_bound": "571690791/131072000000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1077783908049188133076685478492005990400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/134722988506148516634585684811500748800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "1/8",
+      "exact_full_response_lower_bound": "7057911/8192000000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1077783908049188133076685478492005990400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/134722988506148516634585684811500748800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "11/80",
+      "exact_full_response_lower_bound": "7057911/131072000000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1077783908049188133076685478492005990400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/134722988506148516634585684811500748800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "9/800",
+      "exact_full_response_lower_bound": "575956801079991/1310720000000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/10777839080804055775082761538574284645990400000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1347229885100506971885345192321785580748800000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "1/80",
+      "exact_full_response_lower_bound": "7110577791111/81920000000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/10777839080804055775082761538574284645990400000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1347229885100506971885345192321785580748800000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "11/800",
+      "exact_full_response_lower_bound": "7110577791111/1310720000000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/10777839080804055775082761538574284645990400000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1347229885100506971885345192321785580748800000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "9/160",
+      "exact_full_response_lower_bound": "36794923191/134217728000000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/289315414834502799746462082483763015420634726400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/36164426854312849968307760310470376927579340800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "1/16",
+      "exact_full_response_lower_bound": "454258311/8388608000000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/289315414834502799746462082483763015420634726400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/36164426854312849968307760310470376927579340800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "11/160",
+      "exact_full_response_lower_bound": "454258311/134217728000000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/289315414834502799746462082483763015420634726400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/36164426854312849968307760310470376927579340800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "9/80",
+      "exact_full_response_lower_bound": "571690791/131072000000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1077783908049188133076685478492005990400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/134722988506148516634585684811500748800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "1/8",
+      "exact_full_response_lower_bound": "7057911/8192000000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1077783908049188133076685478492005990400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/134722988506148516634585684811500748800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3/2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "11/80",
+      "exact_full_response_lower_bound": "7057911/131072000000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1077783908049188133076685478492005990400000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/134722988506148516634585684811500748800000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "1/80",
+      "exact_full_response_lower_bound": "191985600359997/209715200000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/14370452107738741033443682051432379527987200000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1796306513467342629180460256429047440998400000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "3/200",
+      "exact_full_response_lower_bound": "2370192597037/13107200000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/14370452107738741033443682051432379527987200000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1796306513467342629180460256429047440998400000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "7/400",
+      "exact_full_response_lower_bound": "2370192597037/209715200000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/14370452107738741033443682051432379527987200000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1796306513467342629180460256429047440998400000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "1/16",
+      "exact_full_response_lower_bound": "12264974397/21474836480000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/385753886446003732995282776645017353894179635200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/48219235805750466624410347080627169236772454400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "3/40",
+      "exact_full_response_lower_bound": "151419437/1342177280000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/385753886446003732995282776645017353894179635200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/48219235805750466624410347080627169236772454400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "7/80",
+      "exact_full_response_lower_bound": "151419437/21474836480000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/385753886446003732995282776645017353894179635200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/48219235805750466624410347080627169236772454400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "1/8",
+      "exact_full_response_lower_bound": "190563597/20971520000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1437045210732250844102247304656007987200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/179630651341531355512780913082000998400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "3/20",
+      "exact_full_response_lower_bound": "2352637/1310720000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1437045210732250844102247304656007987200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/179630651341531355512780913082000998400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "7/40",
+      "exact_full_response_lower_bound": "2352637/20971520000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1437045210732250844102247304656007987200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/179630651341531355512780913082000998400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "1/80",
+      "exact_full_response_lower_bound": "191985600359997/209715200000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/14370452107738741033443682051432379527987200000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1796306513467342629180460256429047440998400000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "3/200",
+      "exact_full_response_lower_bound": "2370192597037/13107200000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/14370452107738741033443682051432379527987200000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1796306513467342629180460256429047440998400000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "7/400",
+      "exact_full_response_lower_bound": "2370192597037/209715200000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/14370452107738741033443682051432379527987200000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/1796306513467342629180460256429047440998400000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "1/16",
+      "exact_full_response_lower_bound": "12264974397/21474836480000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/385753886446003732995282776645017353894179635200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/48219235805750466624410347080627169236772454400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "3/40",
+      "exact_full_response_lower_bound": "151419437/1342177280000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/385753886446003732995282776645017353894179635200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/48219235805750466624410347080627169236772454400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "7/80",
+      "exact_full_response_lower_bound": "151419437/21474836480000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/385753886446003732995282776645017353894179635200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/48219235805750466624410347080627169236772454400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "1/8",
+      "exact_full_response_lower_bound": "190563597/20971520000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1437045210732250844102247304656007987200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/179630651341531355512780913082000998400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "3/20",
+      "exact_full_response_lower_bound": "2352637/1310720000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1437045210732250844102247304656007987200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/179630651341531355512780913082000998400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "2",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "7/40",
+      "exact_full_response_lower_bound": "2352637/20971520000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/1437045210732250844102247304656007987200000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/179630651341531355512780913082000998400000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "3/200",
+      "exact_full_response_lower_bound": "575956801079991/419430400000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/21555678161608111550165523077148569291980800000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/2694459770201013943770690384643571161497600000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "1/50",
+      "exact_full_response_lower_bound": "7110577791111/26214400000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/21555678161608111550165523077148569291980800000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/2694459770201013943770690384643571161497600000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/100",
+      "r": "1/40",
+      "exact_full_response_lower_bound": "7110577791111/419430400000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/21555678161608111550165523077148569291980800000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/2694459770201013943770690384643571161497600000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "3/40",
+      "exact_full_response_lower_bound": "36794923191/42949672960000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/578630829669005599492924164967526030841269452800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/72328853708625699936615520620940753855158681600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "1/10",
+      "exact_full_response_lower_bound": "454258311/2684354560000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/578630829669005599492924164967526030841269452800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/72328853708625699936615520620940753855158681600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/20",
+      "r": "1/8",
+      "exact_full_response_lower_bound": "454258311/42949672960000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/578630829669005599492924164967526030841269452800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/72328853708625699936615520620940753855158681600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "3/20",
+      "exact_full_response_lower_bound": "571690791/41943040000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/2155567816098376266153370956984011980800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/269445977012297033269171369623001497600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "1/5",
+      "exact_full_response_lower_bound": "7057911/2621440000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/2155567816098376266153370956984011980800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/269445977012297033269171369623001497600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "-1/2",
+      "t": "1/10",
+      "r": "1/4",
+      "exact_full_response_lower_bound": "7057911/41943040000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/2155567816098376266153370956984011980800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/269445977012297033269171369623001497600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "3/200",
+      "exact_full_response_lower_bound": "575956801079991/419430400000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/21555678161608111550165523077148569291980800000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/2694459770201013943770690384643571161497600000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "1/50",
+      "exact_full_response_lower_bound": "7110577791111/26214400000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/21555678161608111550165523077148569291980800000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/2694459770201013943770690384643571161497600000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/100",
+      "r": "1/40",
+      "exact_full_response_lower_bound": "7110577791111/419430400000000000000000000",
+      "uniform_majorant_upper_bound": "374230523639586605072773131498056262104055683668201662313416411648995930208000003097/21555678161608111550165523077148569291980800000000000000000000000000000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/2694459770201013943770690384643571161497600000000000000000000000000000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "3/40",
+      "exact_full_response_lower_bound": "36794923191/42949672960000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/578630829669005599492924164967526030841269452800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/72328853708625699936615520620940753855158681600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "1/10",
+      "exact_full_response_lower_bound": "454258311/2684354560000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/578630829669005599492924164967526030841269452800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/72328853708625699936615520620940753855158681600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/20",
+      "r": "1/8",
+      "exact_full_response_lower_bound": "454258311/42949672960000000000",
+      "uniform_majorant_upper_bound": "6278546334713180484669814069776857601006807955133471412368332803097/578630829669005599492924164967526030841269452800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/72328853708625699936615520620940753855158681600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "3/20",
+      "exact_full_response_lower_bound": "571690791/41943040000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/2155567816098376266153370956984011980800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/269445977012297033269171369623001497600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "1/5",
+      "exact_full_response_lower_bound": "7057911/2621440000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/2155567816098376266153370956984011980800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/269445977012297033269171369623001497600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    },
+    {
+      "a": "3",
+      "m": 1,
+      "M": 1,
+      "g": "1/2",
+      "t": "1/10",
+      "r": "1/4",
+      "exact_full_response_lower_bound": "7057911/41943040000000000",
+      "uniform_majorant_upper_bound": "374230529197096937314014850437394338044511700216073020803097/2155567816098376266153370956984011980800000000000000000000000000000",
+      "majorant_tail_upper_bound": "899/269445977012297033269171369623001497600000000000000000000000000000",
+      "bound_type": "analytic full stable 1+1 retarded response certificate"
+    }
+  ],
+  "pathological_controls": {
+    "massless_nonzero_g": {
+      "type": "tachyonic_low_k",
+      "rejected": true
+    },
+    "excessive_positive_g": {
+      "type": "tachyonic_low_k",
+      "rejected": true
+    },
+    "excessive_negative_g": {
+      "type": "tachyonic_low_k",
+      "rejected": true
+    },
+    "negative_gradient": {
+      "type": "high_k_instability",
+      "rejected": true,
+      "negative_gradient_matrix": [
+        [
+          "-399",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "101"
+        ]
+      ],
+      "negative_gradient_least_lambda": -399.00049999950005,
+      "healthy_least_lambda": 100.99916666898147,
+      "negative_gradient_state_energy": "-2",
+      "healthy_state_energy": "2"
+    },
+    "negative_preferred_kinetic": {
+      "type": "ghost",
+      "rejected": true,
+      "negative_kinetic_state_energy": "-1/2",
+      "healthy_state_energy": "1/2"
+    }
+  },
+  "healthy_candidate_gate": {
+    "passed": true,
+    "constraint_count": 63,
+    "failed_constraints": [],
+    "evaluated_constraints": [
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "0",
+          "0",
+          "0"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "0",
+          "0",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "0",
+          "1",
+          "0"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "1",
+          "0",
+          "0"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "1",
+          "4",
+          "2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "1",
+          "4",
+          "-2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "1",
+          "1",
+          "2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "1",
+          "1",
+          "-2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "mass_classification_matches_low_k_spectrum",
+        "parameters": [
+          "1",
+          "1",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "cross_is_odd_same_chi_is_even",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "5/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "same_chi_is_quadratic_in_g",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "5/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "5/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "-5/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_before_source",
+        "parameters": [
+          "3/2",
+          "-1/4",
+          "5/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "9/32",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "5/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "11/32",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_same_chi_front_power_is_cubic",
+        "parameters": [
+          "3/2",
+          "1/4",
+          "11/32",
+          "5/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "cross_is_odd_same_chi_is_even",
+        "parameters": [
+          "3/2",
+          "1",
+          "5/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "same_chi_is_quadratic_in_g",
+        "parameters": [
+          "3/2",
+          "1",
+          "5/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3/2",
+          "1",
+          "5/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3/2",
+          "1",
+          "-5/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_before_source",
+        "parameters": [
+          "3/2",
+          "-1",
+          "5/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3/2",
+          "1",
+          "9/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3/2",
+          "1",
+          "5/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3/2",
+          "1",
+          "11/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_same_chi_front_power_is_cubic",
+        "parameters": [
+          "3/2",
+          "1",
+          "11/8",
+          "5/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "cross_is_odd_same_chi_is_even",
+        "parameters": [
+          "2",
+          "1/4",
+          "3/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "same_chi_is_quadratic_in_g",
+        "parameters": [
+          "2",
+          "1/4",
+          "3/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "2",
+          "1/4",
+          "3/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "2",
+          "1/4",
+          "-3/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_before_source",
+        "parameters": [
+          "2",
+          "-1/4",
+          "3/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "2",
+          "1/4",
+          "5/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "2",
+          "1/4",
+          "3/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "2",
+          "1/4",
+          "7/16",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_same_chi_front_power_is_cubic",
+        "parameters": [
+          "2",
+          "1/4",
+          "7/16",
+          "3/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "cross_is_odd_same_chi_is_even",
+        "parameters": [
+          "2",
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "same_chi_is_quadratic_in_g",
+        "parameters": [
+          "2",
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "2",
+          "1",
+          "3",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "2",
+          "1",
+          "-3",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_before_source",
+        "parameters": [
+          "2",
+          "-1",
+          "3/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "2",
+          "1",
+          "5/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "2",
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "2",
+          "1",
+          "7/4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_same_chi_front_power_is_cubic",
+        "parameters": [
+          "2",
+          "1",
+          "7/4",
+          "3/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "cross_is_odd_same_chi_is_even",
+        "parameters": [
+          "3",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "same_chi_is_quadratic_in_g",
+        "parameters": [
+          "3",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3",
+          "1/4",
+          "1",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3",
+          "1/4",
+          "-1",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_before_source",
+        "parameters": [
+          "3",
+          "-1/4",
+          "1/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3",
+          "1/4",
+          "3/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3",
+          "1/4",
+          "5/8",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_same_chi_front_power_is_cubic",
+        "parameters": [
+          "3",
+          "1/4",
+          "5/8",
+          "1/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "cross_is_odd_same_chi_is_even",
+        "parameters": [
+          "3",
+          "1",
+          "2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "same_chi_is_quadratic_in_g",
+        "parameters": [
+          "3",
+          "1",
+          "2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3",
+          "1",
+          "4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_outside_fast_cone",
+        "parameters": [
+          "3",
+          "1",
+          "-4",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "response_zero_before_source",
+        "parameters": [
+          "3",
+          "-1",
+          "2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3",
+          "1",
+          "3/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3",
+          "1",
+          "2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_response_is_dimension_raised",
+        "parameters": [
+          "3",
+          "1",
+          "5/2",
+          "1/2"
+        ],
+        "passed": true
+      },
+      {
+        "property": "radial_same_chi_front_power_is_cubic",
+        "parameters": [
+          "3",
+          "1",
+          "5/2",
+          "2",
+          "1/2"
+        ],
+        "passed": true
+      }
+    ]
+  },
+  "mutants_rejected": {
+    "massless_mixing_called_stable": {
+      "injected_entry": "mass_stable",
+      "injected_function": "wrong_mass_criterion",
+      "rejected": true,
+      "gate": {
+        "passed": false,
+        "constraint_count": 63,
+        "failed_constraints": [
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "1/2"
+            ],
+            "passed": false
+          }
+        ],
+        "evaluated_constraints": [
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "1",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "-5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "9/32",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "-5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "9/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "-3/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "3",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "-3",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "-1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "-4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          }
+        ]
+      }
+    },
+    "same_chi_wrong_odd_g": {
+      "injected_entry": "mixed_response",
+      "injected_function": "wrong_odd_same_chi",
+      "rejected": true,
+      "gate": {
+        "passed": false,
+        "constraint_count": 63,
+        "failed_constraints": [
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          }
+        ],
+        "evaluated_constraints": [
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "1",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "-5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "9/32",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "-5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "9/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "-3/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "3",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "-3",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "-1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "-4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          }
+        ]
+      }
+    },
+    "outside_fast_nonzero": {
+      "injected_entry": "mixed_response",
+      "injected_function": "wrong_outside_response",
+      "rejected": true,
+      "gate": {
+        "passed": false,
+        "constraint_count": 63,
+        "failed_constraints": [
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "-5/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "-5/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "-3/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "3",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "-3",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "1",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "-1",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "-4",
+              "1/2"
+            ],
+            "passed": false
+          }
+        ],
+        "evaluated_constraints": [
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "1",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "-5/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "9/32",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "-5/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "9/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "-3/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "3",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "-3",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "1",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "-1",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "-4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          }
+        ]
+      }
+    },
+    "copied_1d_front_power_to_3d": {
+      "injected_entry": "mixed_radial",
+      "injected_function": "wrong_copied_1d_radial",
+      "rejected": true,
+      "gate": {
+        "passed": false,
+        "constraint_count": 63,
+        "failed_constraints": [
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "9/32",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "9/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          }
+        ],
+        "evaluated_constraints": [
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "0",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "0",
+              "1",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "0",
+              "0"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "4",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "-2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "mass_classification_matches_low_k_spectrum",
+            "parameters": [
+              "1",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "-5/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "9/32",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1/4",
+              "11/32",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3/2",
+              "1",
+              "-5/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3/2",
+              "-1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "9/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3/2",
+              "1",
+              "11/8",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1/4",
+              "-3/4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "5/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1/4",
+              "7/16",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "3",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "2",
+              "1",
+              "-3",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "2",
+              "-1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "5/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "2",
+              "1",
+              "7/4",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1/4",
+              "-1",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "3/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1/4",
+              "5/8",
+              "1/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "cross_is_odd_same_chi_is_even",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "same_chi_is_quadratic_in_g",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_outside_fast_cone",
+            "parameters": [
+              "3",
+              "1",
+              "-4",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "response_zero_before_source",
+            "parameters": [
+              "3",
+              "-1",
+              "2",
+              "1/2"
+            ],
+            "passed": true
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "3/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_response_is_dimension_raised",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "1/2"
+            ],
+            "passed": false
+          },
+          {
+            "property": "radial_same_chi_front_power_is_cubic",
+            "parameters": [
+              "3",
+              "1",
+              "5/2",
+              "2",
+              "1/2"
+            ],
+            "passed": false
+          }
+        ]
+      }
+    }
+  },
+  "correction_history": {
+    "initial_results_sha256": "8d72c70b9ef1d98225133e6ec49b2df0380c6d970310f6bf0f56a7c8696a559e",
+    "initial_script_sha256": "c4cc83fe5fc55d1734bb35d87803ca8d2b3ff1a86ab1a71db2c35d4465144e92",
+    "initial_count": 10414,
+    "initial_weak_mutant_comparisons": "Four truth-versus-wrong-value comparisons did not inject candidates and are not certified mutant rejection.",
+    "initial_gradient_kinetic_controls": "Literal negative expectations were replaced by shared parameterized dispersion/energy helper evaluations.",
+    "final_change": "Same four named defects injected into candidate functions and fed through identical 63-constraint gate; healthy gate added.",
+    "count_delta": 1,
+    "not_blind": "Post-run amendment after skeptical review; initial artifacts preserved."
+  },
+  "scope": [
+    "1+1 massive stable exact-response lower bounds come from a convergent positive Volterra series.",
+    "3D radial formulas require r>0 and are mathematical kernels, not experiment predictions.",
+    "Massless nonzero mixing is unstable; its kernels serve as perturbation coefficients only.",
+    "Full-continuum front statements do not settle unknown EFT ultraviolet completion.",
+    "No matter/photon detector, observation, physical FTL, novelty or external review claim."
+  ]
+}

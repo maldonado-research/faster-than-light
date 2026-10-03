@@ -1,0 +1,12 @@
+{
+  "operation": "CLI overwrite refusal only; scientific checks did not execute",
+  "cwd": "/tmp",
+  "return_code": 2,
+  "before_sha256": "91baeaccfad2d0d42ddccfdc8418b4ccb9c818e618c594682c008c8f39e92afe",
+  "after_sha256": "91baeaccfad2d0d42ddccfdc8418b4ccb9c818e618c594682c008c8f39e92afe",
+  "bytes_unchanged": true,
+  "refusal_message_present": true,
+  "stdout": "",
+  "stderr": "usage: check.py [-h] --out OUT\ncheck.py: error: --out already exists; refusing to overwrite an existing result or symlink\n",
+  "passed": true
+}

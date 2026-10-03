@@ -1,5 +1,9 @@
 # Publication and correction history
 
+## 2026-10-02 Pacific (2026-10-03 UTC) — coupled scalar methods
+
+Added a specified local two-scalar analogue, preferred Hamiltonian/mode stability, exact retarded convolution coefficients, a stable massive one-dimensional response bound and internal source-bound checks. Preserved the disclosed correction of initial independent control labels and the kernel output-path/duplicate-cell metadata amendments. No observation, physical FTL mechanism, external review, archival publication or historical snapshot change is claimed. The separate proposed v1.2.2 package is unchanged.
+
 ## 2026-10-02 UTC — public navigation
 
 Added README links to the readable FTL overview and the author's research directory. This navigation update preserves the September 8 research snapshot, September 30 documentation edition, publication dates, archival identifiers, and citation metadata.

@@ -1,0 +1,413 @@
+{
+  "started_utc": "2026-10-03T00:49:54.729640+00:00",
+  "completed_utc": "2026-10-03T00:49:54.972112+00:00",
+  "all_passed": true,
+  "scope": "Disclosed synthetic internal verification of an assumed coupled preferred-time scalar analogue.",
+  "dependencies": {
+    "python": "3.12.14",
+    "libraries": "Python standard library only"
+  },
+  "script_sha256": "c6c59a967e3f86828b8b08c3984340d19981cb60f12e24b33129d5577ff72b71",
+  "registration_sha256": {
+    "REGISTRATION.md": "23c5d75de7f38c9f97388fcc4fb941e964449766923164a0a10fc7c55c2fc841",
+    "REGISTRATION_ORIGINAL.md": "b86cb57adec77f12a7a76d398fdafcdf1e65a5ae7f81776148b69cee7f190718",
+    "root/IMPLEMENTATION_REGISTRATION.md": "8b7fc706d7484a965a276a1b26e11caa63545d4f1e516ecb1b435329572f5b69",
+    "root/IMPLEMENTATION_NOTES.md": "34528c6c24b28ce1ad8327ce10f0eb8ca3e7e3c93725bd8b2507844b1ad79e4f"
+  },
+  "parameters": {
+    "mode_seed": 20261005,
+    "partial_fraction_seed": 20261006,
+    "spatial_integral_seed": 20261008,
+    "float_tolerance": 1e-10,
+    "asymptotic_relative_tolerance": 0.0001,
+    "residual_scaling": "Pre-run IMPLEMENTATION_REGISTRATION.md; raw and normalized maxima reported.",
+    "fast_residue_subset": {
+      "a": [
+        "5/4",
+        "3/2",
+        "2",
+        "3"
+      ],
+      "m": 1,
+      "M": 2,
+      "g": "1/2",
+      "k": [
+        1000,
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    }
+  },
+  "expected_cases": {
+    "modes": 2000,
+    "partial_fractions": 200,
+    "piecewise_kernels": 120,
+    "spatial_integrals": 60,
+    "fast_residue": 20,
+    "mass_boundaries": 16,
+    "coincident_cones": 24,
+    "zero_wavenumber_transforms": 6,
+    "pathological_controls": 4
+  },
+  "actual_count_checks": {
+    "modes": true,
+    "partial_fractions": true,
+    "piecewise_kernels": true,
+    "spatial_integrals": true,
+    "fast_residue": true,
+    "mass_boundaries": true,
+    "coincident_cones": true,
+    "zero_wavenumber_transforms": true,
+    "pathological_controls": true,
+    "interior_grid_evaluations": true,
+    "residue_doubling_ratios": true
+  },
+  "sections": {
+    "modes": {
+      "cases": 2000,
+      "passed": 2000,
+      "failed": 0,
+      "maxima": {
+        "eigen_raw": 1.8189894035458565e-12,
+        "eigen_normalized": 3.979021315130287e-16,
+        "characteristic_raw": 1.7695128917694092e-08,
+        "characteristic_normalized": 2.6865798622496794e-16,
+        "reconstruction_raw": 3.637978807091713e-12,
+        "reconstruction_normalized": 4.2821054879208613e-16,
+        "trace_raw": 1.8189894035458565e-12,
+        "trace_normalized": 2.1977613650220448e-16,
+        "product_raw": 4.656612873077393e-10,
+        "product_normalized": 3.973540414408474e-17,
+        "orthogonality": 2.220446049250313e-16,
+        "speed_bound_violation_normalized": 0.0
+      }
+    },
+    "partial_fractions": {
+      "cases": 200,
+      "passed": 200,
+      "failed": 0,
+      "maxima": {}
+    },
+    "zero_wavenumber_transforms": {
+      "cases": 6,
+      "passed": 6,
+      "failed": 0,
+      "maxima": {}
+    },
+    "piecewise_kernels": {
+      "cases": 120,
+      "passed": 120,
+      "failed": 0,
+      "maxima": {}
+    },
+    "coincident_cones": {
+      "cases": 24,
+      "passed": 24,
+      "failed": 0,
+      "maxima": {}
+    },
+    "spatial_integrals": {
+      "cases": 60,
+      "passed": 60,
+      "failed": 0,
+      "maxima": {
+        "H_exact_residual": 0.0,
+        "K_exact_residual": 0.0
+      }
+    },
+    "fast_residue": {
+      "cases": 20,
+      "passed": 20,
+      "failed": 0,
+      "maxima": {
+        "asymptotic_relative_deviation": 1.0666749630017236e-05,
+        "doubling_ratio_relative_deviation": 8.000056444412706e-06
+      }
+    },
+    "mass_boundaries": {
+      "cases": 16,
+      "passed": 16,
+      "failed": 0,
+      "maxima": {
+        "eigen_raw": 8.881784197001252e-16,
+        "eigen_normalized": 1.674931168839722e-16,
+        "characteristic_raw": 3.552713678800501e-15,
+        "characteristic_normalized": 7.250436079184695e-17,
+        "reconstruction_raw": 2.220446049250313e-16,
+        "reconstruction_normalized": 1.1102230246251565e-16,
+        "trace_raw": 0.0,
+        "trace_normalized": 0.0,
+        "product_raw": 0.0,
+        "product_normalized": 0.0,
+        "orthogonality": 0.0,
+        "speed_bound_violation_normalized": 0.0
+      }
+    },
+    "pathological_controls": {
+      "cases": 4,
+      "passed": 4,
+      "failed": 0,
+      "maxima": {}
+    }
+  },
+  "diagnostics": {
+    "interior_grid_evaluations": 960,
+    "residue_doubling_ratios": 16,
+    "random_mode_saturation_cases": 173,
+    "random_mode_zero_mixing_cases": 62,
+    "random_mode_zero_frequency_modes": 0
+  },
+  "boundary_cases": [
+    {
+      "a": "2",
+      "m": "1",
+      "M": "1",
+      "g": "0",
+      "k2": "0",
+      "energy": "9",
+      "mass_det": "1",
+      "lambda_high": 1.0,
+      "lambda_low": 1.0,
+      "ordinary_boosted_frequencies": [
+        1.0606601717798212,
+        1.0606601717798212
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "1",
+      "g": "0",
+      "k2": "1",
+      "energy": "43/2",
+      "mass_det": "1",
+      "lambda_high": 5.0,
+      "lambda_low": 2.0,
+      "ordinary_boosted_frequencies": [
+        2.018154854533011,
+        1.1464466094067265
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "1",
+      "g": "1",
+      "k2": "0",
+      "energy": "3",
+      "mass_det": "0",
+      "lambda_high": 2.0,
+      "lambda_low": 0.0,
+      "ordinary_boosted_frequencies": [
+        1.5000000000000002,
+        0.0
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "1",
+      "g": "1",
+      "k2": "1",
+      "energy": "31/2",
+      "mass_det": "0",
+      "lambda_high": 5.302775637731995,
+      "lambda_low": 1.6972243622680052,
+      "ordinary_boosted_frequencies": [
+        2.0889090128939314,
+        1.02824884111411
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "1",
+      "g": "-1",
+      "k2": "0",
+      "energy": "15",
+      "mass_det": "0",
+      "lambda_high": 2.0,
+      "lambda_low": 0.0,
+      "ordinary_boosted_frequencies": [
+        1.5000000000000002,
+        0.0
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "1",
+      "g": "-1",
+      "k2": "1",
+      "energy": "55/2",
+      "mass_det": "0",
+      "lambda_high": 5.302775637731995,
+      "lambda_low": 1.6972243622680052,
+      "ordinary_boosted_frequencies": [
+        2.0889090128939314,
+        1.02824884111411
+      ]
+    },
+    {
+      "a": "2",
+      "m": "0",
+      "M": "1",
+      "g": "0",
+      "k2": "0",
+      "energy": "7",
+      "mass_det": "0",
+      "lambda_high": 1.0,
+      "lambda_low": 0.0,
+      "ordinary_boosted_frequencies": [
+        1.0606601717798212,
+        0.0
+      ]
+    },
+    {
+      "a": "2",
+      "m": "0",
+      "M": "1",
+      "g": "0",
+      "k2": "1",
+      "energy": "39/2",
+      "mass_det": "0",
+      "lambda_high": 4.0,
+      "lambda_low": 2.0,
+      "ordinary_boosted_frequencies": [
+        1.7677669529663689,
+        1.1464466094067265
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "0",
+      "g": "0",
+      "k2": "0",
+      "energy": "9/2",
+      "mass_det": "0",
+      "lambda_high": 1.0,
+      "lambda_low": 0.0,
+      "ordinary_boosted_frequencies": [
+        1.0606601717798212,
+        0.0
+      ]
+    },
+    {
+      "a": "2",
+      "m": "1",
+      "M": "0",
+      "g": "0",
+      "k2": "1",
+      "energy": "17",
+      "mass_det": "0",
+      "lambda_high": 5.0,
+      "lambda_low": 1.0,
+      "ordinary_boosted_frequencies": [
+        2.018154854533011,
+        0.7071067811865476
+      ]
+    },
+    {
+      "a": "2",
+      "m": "0",
+      "M": "0",
+      "g": "0",
+      "k2": "0",
+      "energy": "5/2",
+      "mass_det": "0",
+      "lambda_high": 0.0,
+      "lambda_low": 0.0,
+      "ordinary_boosted_frequencies": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "a": "2",
+      "m": "0",
+      "M": "0",
+      "g": "0",
+      "k2": "1",
+      "energy": "15",
+      "mass_det": "0",
+      "lambda_high": 4.0,
+      "lambda_low": 1.0,
+      "ordinary_boosted_frequencies": [
+        1.7677669529663689,
+        0.7071067811865476
+      ]
+    },
+    {
+      "a": "1",
+      "m": "1",
+      "M": "1",
+      "g": "1/2",
+      "k2": "0",
+      "energy": "6",
+      "mass_det": "3/4",
+      "lambda_high": 1.5,
+      "lambda_low": 0.5,
+      "ordinary_boosted_frequencies": [
+        1.2990381056766578,
+        0.7500000000000001
+      ]
+    },
+    {
+      "a": "1",
+      "m": "1",
+      "M": "1",
+      "g": "1/2",
+      "k2": "1",
+      "energy": "25/2",
+      "mass_det": "3/4",
+      "lambda_high": 2.5,
+      "lambda_low": 1.5,
+      "ordinary_boosted_frequencies": [
+        1.3234975925315686,
+        0.9454847150833842
+      ]
+    },
+    {
+      "a": "1",
+      "m": "1",
+      "M": "1",
+      "g": "-1/2",
+      "k2": "0",
+      "energy": "12",
+      "mass_det": "3/4",
+      "lambda_high": 1.5,
+      "lambda_low": 0.5,
+      "ordinary_boosted_frequencies": [
+        1.2990381056766578,
+        0.7500000000000001
+      ]
+    },
+    {
+      "a": "1",
+      "m": "1",
+      "M": "1",
+      "g": "-1/2",
+      "k2": "1",
+      "energy": "37/2",
+      "mass_det": "3/4",
+      "lambda_high": 2.5,
+      "lambda_low": 1.5,
+      "ordinary_boosted_frequencies": [
+        1.3234975925315686,
+        0.9454847150833842
+      ]
+    }
+  ],
+  "failed_cases": [],
+  "exception": null,
+  "qualifications": [
+    "Massless nonzero mixing is unstable; H/K are Born coefficients only.",
+    "Saturated homogeneous null modes can grow linearly; zero frequency is not strictly positive.",
+    "Real-space kernels here are 1+1 dimensional distributions, not finite-energy pulses or 3+1 detector predictions.",
+    "Continuum high-k modal suppression does not determine an EFT ultraviolet physical front.",
+    "No apparatus cost, interaction with real matter, empirical FTL channel or external peer review is established."
+  ]
+}

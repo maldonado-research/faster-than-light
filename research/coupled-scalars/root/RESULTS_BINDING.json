@@ -1,0 +1,26 @@
+{
+  "verified_utc": "2026-10-03T00:51:22.687601+00:00",
+  "checks": {
+    "script_result_binding": true,
+    "registration_hashes": true,
+    "pre_run_binding_precedes_start": true,
+    "counts_match_registration": true,
+    "failure_list_empty": true,
+    "no_exception": true,
+    "all_recorded_sections_passed": true
+  },
+  "all_passed": true,
+  "first_decisive_started_utc": "2026-10-03T00:49:54.729640+00:00",
+  "first_decisive_completed_utc": "2026-10-03T00:49:54.972112+00:00",
+  "case_count": 2450,
+  "additional_interior_grid_evaluations": 960,
+  "additional_residue_doubling_ratios": 16,
+  "sha256": {
+    "reproduce.py": "c6c59a967e3f86828b8b08c3984340d19981cb60f12e24b33129d5577ff72b71",
+    "RESULTS.json": "421fce9f0d34af981555d2b5d84abd3183ea0de72c9bdcfd915157ce5c17de06",
+    "IMPLEMENTATION_BINDING.json": "ea550231c766b301b48b42e81218059d1ab6c9a4b655fd08c328320f85ea5df6",
+    "IMPLEMENTATION_REGISTRATION.md": "8b7fc706d7484a965a276a1b26e11caa63545d4f1e516ecb1b435329572f5b69",
+    "IMPLEMENTATION_NOTES.md": "34528c6c24b28ce1ad8327ce10f0eb8ca3e7e3c93725bd8b2507844b1ad79e4f"
+  },
+  "scope": "Saved artifact/count/hash verification only; no new decisive run."
+}

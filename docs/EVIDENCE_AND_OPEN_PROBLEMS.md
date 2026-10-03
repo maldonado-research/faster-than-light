@@ -57,3 +57,10 @@ A result surviving the audit still needs comparison with alternative explanation
 Recover the actual private mathematical/code release; resolve notation and cosmology normalization; define the hidden-sector mechanism; close source/parameter/independence requirements; run a frozen analysis; and obtain external human review and independent reproduction.
 
 No completion date or successful outcome is assumed. Public empirical v1.3.0 remains reserved in the source record for genuine posterior-level results that meet the required conditions.
+
+
+## Coupled scalar exercise — 2 October 2026 Pacific
+
+A newly assumed [local two-scalar action](COUPLED_SCALAR_RESPONSE.md) addresses a mathematical source/response question left open by the free-field exercise. Under `g^2<=m^2*M^2` it has a nonnegative preferred internal energy on the stated spatial domain, real modes and common-time retarded support. A one-dimensional small-time theorem gives a positive slower-field response outside its uncoupled cone; exact massless coefficients describe the suppressed onset. The 3D radial perturbation coefficients are separately stated and do not inherit the 1D positive-response inequality.
+
+This is conditional mathematics with [registered internal checks](../research/coupled-scalars/README.md). Both fields and the forcing are analogues, not identified ordinary matter or detector observables. Physical production/detection, energy and bandwidth budgets, constraints on transferred Lorentz violation, quantum/gravity and ultraviolet consistency, and a derived PTA/ringdown analysis remain open. Missing private v6.3 code/proofs and strict observational inputs are still missing. Earlier sender-frame diagnostic assumptions are not restored by this common-time model.

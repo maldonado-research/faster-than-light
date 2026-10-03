@@ -66,3 +66,10 @@ Essential figures include SR-envelope plots, Beta-family phase maps, A1 contours
 Posterior arrays, HDF5/tar data, executable source trees, JSON receipt schemas, and original release archives are absent. The three failed task attachments (`TOE-Mds-Transfers.zip`, `Antimatter-MDs-Transfer-Files.zip`, `HDBLAST-Mds-Transfer-Files.zip`) concern other programs and are neither required nor used as FTL evidence.
 
 Raw private transcripts, the unpublished book manuscript, credentials, personal contact details, unrelated research archives, and the earlier mixed-program article ZIP are excluded.
+
+
+## Coupled scalar verification — 2 October 2026 Pacific
+
+The [coupled scalar note](COUPLED_SCALAR_RESPONSE.md) derives an assumed local interaction and retarded response. Its [registration, scripts, results and audits](../research/coupled-scalars/README.md) use Python>=3.10 and the standard library only. They cover mode/energy and kernel identities, a separate matrix-series route, exact normalization, massive-kernel quadrature/bounds, and corrected controls. They are synthetic internal assistance rather than external replication or physical observations.
+
+The one-dimensional and three-dimensional formulas have distinct scopes. The positive massive Volterra lower bound is one-dimensional; dimensional differentiation of that bound cannot establish a three-dimensional inequality. Full-continuum characteristic/front statements do not determine an unspecified effective-theory ultraviolet front. This derivation does not recover private v6.3 code/proofs or observational posterior inputs, and does not modify the frozen proposed v1.2.2 package.
