@@ -26,10 +26,20 @@ The [owner draft 23111786](https://zenodo.org/uploads/23111786) is incomplete: i
 
 1. Download and inspect the ZIP and proposed metadata. Confirm the proposed v1.2.2 version, report category, author, description, licence and actual publication date.
 2. Open the draft while signed in to the owning Zenodo account. Fill its fields from the prepared metadata; the JSON is a field reference, not an authentication file.
-3. In **this draft only**, remove the two inherited toolkit files and upload this methods ZIP. Confirm the filename and that the upload completes.
+3. In **this draft only**, upload this methods ZIP. Verify its filename, 169,189-byte size and checksum against the [file reference](ZENODO_FORM_FIELDS.md#verify-the-uploaded-package), then remove only the two inherited toolkit references. Save, reopen and verify the fields and single new file.
 4. Review the complete draft, its files, claim boundaries, citation and relationship to the existing FTL concept.
 5. After reviewing the complete metadata and single verified package, you can choose Publish when satisfied. Until the owner publishes and the public record is verified, v1.2.2 remains proposed.
 
 Replacing files in this unpublished draft leaves the old public v1.2.1 record intact. No deletion or change to that public record is requested here.
+
+## Integration repair and current API readback
+
+On 2 October 2026 Pacific, the owner reported that signed-in Zenodo **Sync now** followed by reload repaired the GitHub integration entry and confirmed `faster-than-light` enabled. That browser evidence concerns release-trigger configuration; it does not establish that a new GitHub repository will archive into this manually created FTL DOI family. No test GitHub release was made.
+
+Fresh authenticated reads in the research environment succeeded and confirmed this same owner-scoped draft in concept17726159. Its release metadata is still empty and its files are still the two inherited kits; the methods ZIP is absent. A reserved draft DOI or HTTP200 is not a published update. The earlier JSON, binary and multipart persistence failures remain unresolved; current evidence does not show missing credentials. Official documentation and offline nonempty-body/framing checks found no justified unchanged API retry.
+
+Use the [readable form fields](ZENODO_FORM_FIELDS.md) with the existing signed-in draft. The frozen ZIP and JSON are unchanged, and this proposal does not include subsequent coupled-scalar calculations. After reviewing and verifying a complete draft, the owner may choose Publish through the process above.
+
+Official references: [enable a repository](https://help.zenodo.org/docs/github/enable-repository/), [deposit API](https://developers.zenodo.org/) and [manage versions](https://help.zenodo.org/docs/deposit/manage-versions/).
 
 The [main repository overview](../../README.md) remains the starting point for the research.
